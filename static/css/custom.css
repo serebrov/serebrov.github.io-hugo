@@ -24,7 +24,7 @@
     cursor: default;
     display: none;
     text-align: left;
-    z-index: 50;
+    z-index: 99999;
     background: lightgrey;
 }
 .popup p,
@@ -44,9 +44,14 @@
     overflow-y: scroll;
     /* height: 100%; */
     /* margin-top: 40px; */
+    background: white;
+    padding: 10px;
+    font-family: courier;
+    font-size: 0.85em;
 }
 .popup .close {
     float: right;
+    cursor: pointer;
 }
 .popup .download {
     float: left;

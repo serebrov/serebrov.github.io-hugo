@@ -1,5 +1,3 @@
-/* alert("custom"); */
-
 $(document).ready(function () {
     var popup = {
         _$link: null,
@@ -19,6 +17,7 @@ $(document).ready(function () {
                 );
                 $(".popup").slideFadeToggle(function () {
                     //can do something here
+                    $("body").css("overflow", "hidden");
                 });
             });
         },
@@ -31,6 +30,7 @@ $(document).ready(function () {
             $(".popup").slideFadeToggle(function () {
                 self._$link.removeClass("selected");
                 self._$link = null;
+                $("body").css("overflow", "visible");
             });
         }
     };
@@ -57,9 +57,21 @@ $(document).ready(function () {
 
     function isSelectable(link) {
         var href = $(link).attr("href");
-        if (href && href.endsWith("sh")) {
+
+        if (!href) return false;
+
+        if (href.endsWith("sh")) {
             return true;
         }
+
+        if (href.endsWith("config")) {
+            return true;
+        }
+
+        if (href.endsWith("msmtprc")) {
+            return true;
+        }
+
         return false;
     }
     $("a").each(function (idx, link) {
