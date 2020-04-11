@@ -1,13 +1,8 @@
 <div id="disqus_thread"></div>
 <script>
-    var relLink = "{{ .RelPermalink }}";
-    relLink = relLink.replace("\/", "/");
-    if (relLink.endsWith("/")) {
-        relLink = relLink.substr(0, relLink.length - 1);
-    }
     var disqus_config = function () {
-        this.page.url = "http://serebrov.github.io" + relLink; // Replace PAGE_URL with your page's canonical URL variable
-        console.log('set page url', this.page.url);
+        this.page.url = "https://serebrov.github.io{{ .RelPermalink }}"; // Replace PAGE_URL with your page's canonical URL variable
+        // console.log("set page url", this.page.url);
         // this.page.identifier = '{{path}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     (function () {
