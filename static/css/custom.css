@@ -5,3 +5,7 @@
     border: none;
     border-bottom: 1px dashed;
 }
+
+.all-posts-link {
+    padding-top: 10px;
+}
