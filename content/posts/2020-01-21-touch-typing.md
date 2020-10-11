@@ -17,9 +17,10 @@ A collection of links to touch typing tutors and games.
 *   [The Typing Cat](http://thetypingcat.com/ ) - Free online keyboard typing tutor
 *   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
+*   [https://monkey-type.com/](https://monkey-type.com/) - a minimalistic, customizable typing test, featuring many test modes, [open source](https://github.com/Miodec/monkey-type)
 *   [Typing Scout](http://typingscout.com/en/ ) - Faster typing means more spare time :)
-*   [Solotyping](http://solotyping.com/?locale_id=2) - Touch Typing Course | Online Typing Test | Learn to Type Faster
 *   [Ratatype](https://www.ratatype.com/) — Online typing tutor and typing lessons
+*   [Solotyping](http://solotyping.com/?locale_id=2) - Touch Typing Course | Online Typing Test | Learn to Type Faster
 *   [10FastFingers.com](https://10fastfingers.com/) - [Typing Test](https://10fastfingers.com/typing-test/english), Competitions, Practice & Typing Games
 *   [TyperA](http://typera.net/) - the original typing test
 *   [TypingStudy](https://www.typingstudy.com/) - Touch Typing Practice Online
@@ -30,6 +31,7 @@ A collection of links to touch typing tutors and games.
     *   Onscreen keyboard to learn typing (instead of tutors). Interesting idea, I didn't try this myself
 *   [GNU Typist](http://www.gnu.org/software/gtypist/) (cross-platform) - typing tutor
 *   The Typing of the Dead (windows game) - [Wikipedia](https://en.wikipedia.org/wiki/The_Typing_of_the_Dead?oldformat=true), [Steam](https://store.steampowered.com/app/246580/The_Typing_of_The_Dead_Overkill/)
+*   [Typing chronicles](http://www.epistorygame.com/) - a beautiful atmospheric 3D action/adventure typing game
 
 ## Touch Typing Games
 
