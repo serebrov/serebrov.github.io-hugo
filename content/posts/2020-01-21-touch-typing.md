@@ -17,7 +17,7 @@ A collection of links to touch typing tutors and games.
 *   [The Typing Cat](http://thetypingcat.com/ ) - Free online keyboard typing tutor
 *   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
-*   [https://monkey-type.com/](https://monkey-type.com/) - a minimalistic, customizable typing test, featuring many test modes, [open source](https://github.com/Miodec/monkey-type)
+*   [monkey-type.com](https://monkey-type.com/) - a minimalistic, customizable typing test, featuring many test modes, [open source](https://github.com/Miodec/monkey-type)
 *   [Typing Scout](http://typingscout.com/en/ ) - Faster typing means more spare time :)
 *   [Ratatype](https://www.ratatype.com/) — Online typing tutor and typing lessons
 *   [Solotyping](http://solotyping.com/?locale_id=2) - Touch Typing Course | Online Typing Test | Learn to Type Faster
