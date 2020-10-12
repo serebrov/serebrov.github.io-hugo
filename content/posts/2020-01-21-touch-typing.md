@@ -13,7 +13,7 @@ A collection of links to touch typing tutors and games.
 
 ## Online Typing Tutors
 
-*   [keybr.com] - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
+*   [keybr.com](keybr.com) - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
 *   [The Typing Cat](http://thetypingcat.com/ ) - Free online keyboard typing tutor
 *   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
