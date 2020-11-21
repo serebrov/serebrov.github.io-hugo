@@ -1,14 +1,12 @@
 ---
-title: "Oculus Quest for Work: First Impressions"
-date: 2020-08-15
-tags: [vr]
+title: "Mitosis Keyboard First Impressions"
+date: 2020-11-22
+tags: [kbd]
 type: post
 url: "/html/2020-11-22-mitosis-keyboard-first-impressions.html"
 ---
 
 Mitosis Keyboard First Impressions
-
-Mitosis: Review and Some Questions
 
 I've received my [Mitosis](https://flashquark.com/product/gb-mitosis-wireless-split-ergonomic-keyboard-w-acrylic-case/) few days ago and I like it a lot so far:
 - The size: perfect for the 36 keys layout I use
