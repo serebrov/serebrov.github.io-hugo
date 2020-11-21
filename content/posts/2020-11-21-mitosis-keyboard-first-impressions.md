@@ -8,16 +8,16 @@ url: "/html/2020-11-22-mitosis-keyboard-first-impressions.html"
 
 Mitosis Keyboard First Impressions
 
-I've received my [Mitosis](https://flashquark.com/product/gb-mitosis-wireless-split-ergonomic-keyboard-w-acrylic-case/) few days ago and I like it a lot so far:
+I've received my [Mitosis](https://flashquark.com/product/gb-mitosis-wireless-split-ergonomic-keyboard-w-acrylic-case/) a few days ago and I like it a lot so far:
 - The size: perfect for the 36 keys layout I use
 - The shape: very comfortable, lowered outer columns feel great for pinkies
-  - I wished the inner column, for the index finger would not be shifted up as it is, it causes a bit of extension to use Y and T
+  - I wished the inner column, for the index finger would not be shifted up as it is, it causes a bit of extension to use Y and T (not a big deal though)
   - I also think the bottom thumb row is too far, so I am using the top row, having the bottom one without keycaps, so it doesn't get in a way
 - Wireless: probably this was one of main reasons to get it, it is really nice to freely move both halves without having to care about wires
-  - And I like the decision to use the radio channel instead of bluetooth which gives much longer battery lifetime
+  - An interesting decision here is to use the radio channel instead of bluetooth which gives much longer battery lifetime
   - It requires a receiver to be connected to the computer, but that is not a big deal, also it is cool to realize that your keyboard (QMK) is actually running inside that small board
 - Layout: not sure which layout was there initially, it was QWERTY while the [default layout in QMK configuratior](https://config.qmk.fm/#/mitosis/LAYOUT) is Maltron (I think), anyway, I changed it to my layout, similar to [what I have on Moonlander](https://configure.ergodox-ez.com/moonlander/layouts/MJvlL/latest/0)
-- Open source, here is the [announcement post](https://www.reddit.com/r/MechanicalKeyboards/comments/66588f/wireless_split_qmk_mitosis/), [hardware](https://github.com/reversebias/mitosis-hardware), [receiver firmware](https://github.com/reversebias/mitosis) and [keyboard firmware, QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis)
+- Open source: here is the [announcement post](https://www.reddit.com/r/MechanicalKeyboards/comments/66588f/wireless_split_qmk_mitosis/), [hardware](https://github.com/reversebias/mitosis-hardware), [receiver firmware](https://github.com/reversebias/mitosis) and [keyboard firmware, QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis)
 
 How it [looks](/mitosis/Mitosis.jpg), and [the receiver](/mitosis/Mitosis.Receiver.jpg).
 
@@ -46,7 +46,7 @@ Flashing:
 - Press the button with `R` near it on the receiver to reset it and go to the flashing mode
 
 Alternatively, clone qmk and flash from the command line.
-Setup guide is [here](https://docs.qmk.fm/#/newbs_getting_started), after everything is set up, new firmware can be compiled and flushed with `qmk flash -kb mitosis -km mitosis_mini` (where `mitosis_mini` is the keymap name).
+Setup guide is [here](https://docs.qmk.fm/#/newbs_getting_started), after everything is set up, new firmware can be compiled and flushed with `qmk flash -kb mitosis -km mitosis_mini` (where `mitosis_mini` is the custom keymap name, there are also several [alternative keymaps in the QMK source](https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis)).
 
 The keymap itself, can remain in `json` format, here is [what I have so far](https://github.com/serebrov/qmk_firmware/tree/custom/keyboards/mitosis/keymaps/mitosis_mini):
 - config.h - defines to auto shift timeout and enables tapping force hold
