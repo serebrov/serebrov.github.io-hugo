@@ -1,6 +1,6 @@
 ---
 title: "Mitosis Keyboard First Impressions"
-date: 2020-11-22
+date: 2020-11-21
 tags: [kbd]
 type: post
 url: "/html/2020-11-22-mitosis-keyboard-first-impressions.html"
