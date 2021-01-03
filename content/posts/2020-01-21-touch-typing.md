@@ -13,14 +13,15 @@ A collection of links to touch typing tutors and games.
 
 ## Online Typing Tutors
 
-*   [keybr.com](http://keybr.com/) - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
-*   [keyhero.com](http://keyhero.com/) - Typing test and lessons
-*   [The Typing Cat](http://thetypingcat.com/ ) - Free online keyboard typing tutor
+*   [keybr.com](https://keybr.com/) - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
+*   [keyhero.com](https://keyhero.com/) - Typing test and lessons
+*   [https://www.speedcoder.net/](https://www.speedcoder.net/) - Online Typing Practice for Programmers
+*   [The Typing Cat](https://thetypingcat.com/ ) - Free online keyboard typing tutor
 *   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
 *   [monkey-type.com](https://monkey-type.com/) - a minimalistic, customizable typing test, featuring many test modes, [open source](https://github.com/Miodec/monkey-type)
-*   [Typing Scout](http://typingscout.com/en/ ) - Faster typing means more spare time :)
 *   [Ratatype](https://www.ratatype.com/) — Online typing tutor and typing lessons
+*   [Typing Scout](https://typingscout.com/en/ ) - Faster typing means more spare time :)
 *   [Solotyping](http://solotyping.com/?locale_id=2) - Touch Typing Course | Online Typing Test | Learn to Type Faster
 *   [10FastFingers.com](https://10fastfingers.com/) - [Typing Test](https://10fastfingers.com/typing-test/english), Competitions, Practice & Typing Games
 *   [TyperA](http://typera.net/) - the original typing test
