@@ -1,7 +1,7 @@
 ---
 title: Touch Typing Tutors and Games
 date: 2020-01-21
-tags: [typing]
+tags: [kbd, typing]
 type: note
 url: "/html/2020-01-21-touch-typing.html"
 ---
@@ -14,6 +14,7 @@ A collection of links to touch typing tutors and games.
 ## Online Typing Tutors
 
 *   [keybr.com](http://keybr.com/) - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
+*   [keyhero.com](http://keyhero.com/) - Typing test and lessons
 *   [The Typing Cat](http://thetypingcat.com/ ) - Free online keyboard typing tutor
 *   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
