@@ -15,7 +15,7 @@ A collection of links to touch typing tutors and games.
 
 *   [keybr.com](https://keybr.com/) - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
 *   [keyhero.com](https://keyhero.com/) - Typing test and lessons
-*   [https://www.speedcoder.net/](https://www.speedcoder.net/) - Online Typing Practice for Programmers
+*   [speedcoder.net](https://www.speedcoder.net/) - Online Typing Practice for Programmers
 *   [The Typing Cat](https://thetypingcat.com/ ) - Free online keyboard typing tutor
 *   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
