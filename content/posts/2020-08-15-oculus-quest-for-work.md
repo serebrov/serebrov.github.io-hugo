@@ -60,9 +60,10 @@ It seems that I can only move it up and down or left-right, while it rotates aro
 
 What else would be cool to have:
 - A virtual keyboard that works with hands tracking
-- Some hotkey to enable external cameras, the same as in the guardian setup mode, or when you walk off the guardian area. Looks like this is (not possible at the moment)[https://forums.oculusvr.com/community/discussion/75626/how-to-turn-on-insight].
+- Some hotkey to enable external cameras, the same as in the guardian setup mode, or when you walk off the guardian area. Looks like this is [not possible at the moment](https://forums.oculusvr.com/community/discussion/75626/how-to-turn-on-insight).
+  - Update: this is possible with Oculus's pass-through mode.
 
-Besides work, it is an amazing gaming and entertainment platform. I like Beat Saber on PSVR a lot and immediately got a copy for Quest, others that look quite interesting are [supernatural](getsupernatural.com/) and [eleven table tennis](https://www.oculus.com/experiences/quest/1995434190525828/?locale=en_US), as well as many other awesome games and apps (don't forget [netflix](https://www.oculus.com/experiences/quest/2184912004923042/) on a big screen).
+Besides work, it is an amazing gaming and entertainment platform. I like Beat Saber on PSVR a lot and immediately got a copy for Quest, others that look quite interesting are [FitXR](https://fitxr.com/) and [eleven table tennis](https://www.oculus.com/experiences/quest/1995434190525828/?locale=en_US), as well as many other awesome games and apps (don't forget [netflix](https://www.oculus.com/experiences/quest/2184912004923042/) on a big screen).
 
 Summarizing, I can say that I satisfied with the overall experience, even so, it didn't match all of my expectations.
 
