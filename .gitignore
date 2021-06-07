@@ -5,3 +5,4 @@ Session.vim
 venv
 
 static/git-revert/repository
+public/git-revert/repository
