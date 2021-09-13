@@ -22,10 +22,14 @@ History looks like:
                         C  branch_xxx (your work)
 ```
 
-Most easy way to solve - is to rebase commit C to the remote state:
+The solution depends on what has actually happened, the reason why the upstream state has changed.
+If someone else is also working on the same branch, the good way to solve it is to rebase the commit `C` on top of the remote state:
 
-$ git rebase origin/branch_xxx
-The history will look like this:
+```
+$ git rebase origin/branch_xxx 
+```
+
+The history after the rebase will look like this:
 
 ```bash
     ... o ---- o ---- A ---- B  origin/branch_xxx (upstream work)
@@ -33,18 +37,23 @@ The history will look like this:
                                C`  branch_xxx (your work)
 ```
 
+Another way to fix the issue is to merge the upstream branch state to local:
+
+```
+$ git merge origin/branch_xxx
+```
+
+The history after will look like this:
+
+```bash
+    ... o ---- o ---- A ---- C ---- B  --- [merge commit]
+```
+
+
 The same git error after rebase:
 --------------------------------------------
 
-This happens if you rebase the branch which was previously pushed to the origin repository.
-Rebase rewrites history, so after it you'll have different local and remote state:
-
-```bash
-    Your branch and 'origin/xxx' have diverged,
-    and have 1 and 1 different commit(s) each, respectively.
-```
-
-In this case this is expected. For example, we have a history like this:
+This happens if you rebase the branch which was previously pushed to the origin repository, for example, we start with a state like this:
 
 ```bash
     ... o ---- o ---- A ---- B  master, origin/master
@@ -55,21 +64,32 @@ In this case this is expected. For example, we have a history like this:
 Now we want to rebase branch_xxx against the master branch:
 
 ```bash
-    $ git checkout branch_xxx
-    $ git rebase master
+git checkout master
+git pull
+git checkout branch_xxx
+git rebase master
 ```
 
-And we get "Your branch and 'origin/branch_xxx' have diverged" because the history now is this:
+Now local state of the `mybranch` and `origin/mybranch` state will diverge.
+This is expected as rebase rewrites history, so after it you'll have different local and remote state:
 
-```bash
+```
     ... o ---- o ---- A ---------------------- B  master, origin/master
                        \                        \
                         C  origin/branch_xxx     C` branch_xxx
 ```
 
+```bash
+    Your branch and 'origin/xxx' have diverged,
+    and have 1 and 1 different commit(s) each, respectively.
+```
+
+
 If you absolutely sure this is your case then you can force Git to push your changes:
 
-    $(think twice before this) git push origin branch_xxx -f
+```
+git push -f origin branch_xxx
+```
 
 Links
 --------------------------------------------
