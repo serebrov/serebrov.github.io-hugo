@@ -16,7 +16,7 @@ Error is caused by two independent commits - one (or more) on the local branch c
 <!-- more -->
 History looks like:
 
-```bash
+```
     ... o ---- o ---- A ---- B  origin/branch_xxx (upstream work)
                        \
                         C  branch_xxx (your work)
@@ -25,13 +25,13 @@ History looks like:
 The solution depends on what has actually happened, the reason why the upstream state has changed.
 If someone else is also working on the same branch, the good way to solve it is to rebase the commit `C` on top of the remote state:
 
-```
+```bash
 $ git rebase origin/branch_xxx 
 ```
 
 The history after the rebase will look like this:
 
-```bash
+```
     ... o ---- o ---- A ---- B  origin/branch_xxx (upstream work)
                               \
                                C`  branch_xxx (your work)
@@ -39,13 +39,13 @@ The history after the rebase will look like this:
 
 Another way to fix the issue is to merge the upstream branch state to local:
 
-```
+```bash
 $ git merge origin/branch_xxx
 ```
 
 The history after will look like this:
 
-```bash
+```
     ... o ---- o ---- A ---- C ---- B  --- [merge commit]
 ```
 
@@ -55,7 +55,7 @@ The same git error after rebase:
 
 This happens if you rebase the branch which was previously pushed to the origin repository, for example, we start with a state like this:
 
-```bash
+```
     ... o ---- o ---- A ---- B  master, origin/master
                        \
                         C  branch_xxx, origin/branch_xxx
@@ -80,14 +80,18 @@ This is expected as rebase rewrites history, so after it you'll have different l
 ```
 
 ```bash
-    Your branch and 'origin/xxx' have diverged,
-    and have 1 and 1 different commit(s) each, respectively.
+$ git status
+Alias tip: g status
+On branch branch
+Your branch and 'origin/branch' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
 ```
 
 
 If you absolutely sure this is your case then you can force Git to push your changes:
 
-```
+```bash
 git push -f origin branch_xxx
 ```
 
