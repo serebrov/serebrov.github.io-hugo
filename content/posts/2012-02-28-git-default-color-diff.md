@@ -9,13 +9,13 @@ url: "/html/2012-02-13-git-branches-have-diverged.html"
 To have colored git commands output, use the following command:
 
 ```bash
-    $ git config color.ui true
+git config color.ui true
 ```
 
 or (globally)
 
 ```bash
-    $ git config --global color.ui true
+git config --global color.ui true
 ```
 
 Alternatively, you can set color for individual git commands.

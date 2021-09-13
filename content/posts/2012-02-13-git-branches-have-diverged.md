@@ -1,5 +1,5 @@
 ---
-title: Git - Your branch and 'origin/xxx' have diverged
+title: git - your branch and 'origin/xxx' have diverged error
 date: 2012-02-13
 tags: [git]
 type: note

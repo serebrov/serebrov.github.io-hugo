@@ -9,17 +9,17 @@ url: "/html/2012-03-15-oauth-1-0.html"
 Rename local branch:
 
 ```bash
-    git branch -m old-branch-name new-branch-name
+git branch -m old-branch-name new-branch-name
 ```
 
 Rename remote branch:
 
 ```bash
-    #delete remote branch with old name
-    git push origin :old-branch-name
+#delete remote branch with old name
+git push origin :old-branch-name
 
-    # create remote renamed branch
-    git push origin new-branch-name
+# create remote renamed branch
+git push origin new-branch-name
 ```
 <!-- more -->
 
