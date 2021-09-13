@@ -3,7 +3,7 @@ title: git - use vim with fugitive to resolve merge conflicts
 date: 2012-04-24
 tags: [vim, git]
 type: note
-url: "/html/2012-04-03-vim-replace-word-with-yanked-text.html"
+url: "/html/2012-04-24-git-fugitive-to-resolve-conflicts.html"
 ---
 
 
