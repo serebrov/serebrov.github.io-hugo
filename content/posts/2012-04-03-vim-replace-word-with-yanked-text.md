@@ -17,9 +17,9 @@ To replace a word (or other text) with a text from the clipboard, select the new
 
 
 <!-- more -->
-Deleting, changing and yanking text copies the affected text to the unnamed register ("").
+Deleting, changing and yanking text copies the affected text to the unnamed register (`""`).
 
-Yanking text also copies the text to register 0 ("0).
+Yanking text also copies the text to register 0 (`"0`).
 
 So the command `yiw` copies the current word to `""` and to `"0`.
 
