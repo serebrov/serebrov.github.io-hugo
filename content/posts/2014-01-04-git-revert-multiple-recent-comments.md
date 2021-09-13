@@ -1,5 +1,5 @@
 ---
-title: Git - how to revert multiple recent commits
+title: git - how to revert multiple recent commits
 date: 2014-01-04
 tags: [git]
 type: note
