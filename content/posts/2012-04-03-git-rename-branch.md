@@ -6,11 +6,15 @@ type: note
 url: "/html/2012-03-15-oauth-1-0.html"
 ---
 
+Rename local branch:
 
 ```bash
-    #rename local branch
     git branch -m old-branch-name new-branch-name
+```
 
+Rename remote branch:
+
+```bash
     #delete remote branch with old name
     git push origin :old-branch-name
 
