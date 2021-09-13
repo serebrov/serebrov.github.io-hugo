@@ -19,7 +19,13 @@ I've received my [Mitosis](https://flashquark.com/product/gb-mitosis-wireless-sp
 - Layout: not sure which layout was there initially, it was QWERTY while the [default layout in QMK configuratior](https://config.qmk.fm/#/mitosis/LAYOUT) is Maltron (I think), anyway, I changed it to my layout, similar to [what I have on Moonlander](https://configure.ergodox-ez.com/moonlander/layouts/MJvlL/latest/0)
 - Open source: here is the [announcement post](https://www.reddit.com/r/MechanicalKeyboards/comments/66588f/wireless_split_qmk_mitosis/), [hardware](https://github.com/reversebias/mitosis-hardware), [receiver firmware](https://github.com/reversebias/mitosis) and [keyboard firmware, QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis)
 
-How it [looks](/mitosis/Mitosis.jpg), and [the receiver](/mitosis/Mitosis.Receiver.jpg).
+How it [looks](/mitosis/Mitosis.jpg):
+
+![Mitosis.jpg](/mitosis/Mitosis.jpg)
+
+and [the receiver](/mitosis/Mitosis.Receiver.jpg):
+
+![Mitosis.Receiver.jpg](/mitosis/Mitosis.Receiver.jpg)
 
 Getting it to work didn't take much time, although I first had an issue with the cable (the first one I tried didn't work, probably it was just not a data cable) and then I had batteries upside down and one of them didn't hold in place.
 
