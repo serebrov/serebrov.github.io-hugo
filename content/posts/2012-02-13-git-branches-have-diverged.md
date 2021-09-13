@@ -6,15 +6,17 @@ type: note
 url: "/html/2012-02-10-git-checkout-and-track-remote-branch.html"
 ---
 
-Git error (not after rebase, see below):
+Git error:
 
     Your branch and 'origin/xxx' have diverged,
     and have 1 and 1 different commit(s) each, respectively.
 
-Error is caused by two independent commits - one (or more) on the local branch copy and other - on the remote branch copy (for example, commit by another person to the same branch)
+The error is caused by two independent commits - one (or more) on the local branch copy and other - on the remote branch copy (for example, commit by another person to the same branch).
+
+Another case for the error is `git rebase` (error is expected, see below).
 
 <!-- more -->
-History looks like:
+The history looks like this:
 
 ```
     ... o ---- o ---- A ---- B  origin/branch_xxx (upstream work)
