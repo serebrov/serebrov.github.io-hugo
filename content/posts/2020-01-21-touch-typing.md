@@ -26,6 +26,7 @@ A collection of links to touch typing tutors and games.
 *   [10FastFingers.com](https://10fastfingers.com/) - [Typing Test](https://10fastfingers.com/typing-test/english), Competitions, Practice & Typing Games
 *   [TyperA](http://typera.net/) - the original typing test
 *   [TypingStudy](https://www.typingstudy.com/) - Touch Typing Practice Online
+*   [Ngram Type](https://ranelpadon.github.io/ngram-type/) - Practice typing bigrams, trigrams, tetragrams and top words
 
 ## Software
 
