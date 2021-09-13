@@ -1,40 +1,14 @@
 ---
-title: git - view changes - diff and log
+title: git - viewing changes - diff and log
 date: 2012-10-01
 tags: [git]
 type: note
 url: "/html/2012-10-01-git-diff-and-log.html"
 ---
 
-Diff staged changes
--------------------------------------------
-
-Show staged changes - added to index, but not commited yet:
-
-```bash
-git diff --cached
-# or
-git diff --staged
-```
-
-Diff pulled changes
--------------------------------------------
-
-Show diff of changes pulled from upstream:
-
-```bash
-git pull origin
-git diff @{1}..
-```
-
-Here `@` means `HEAD` and `@{1}` means "prior value of the HEAD", the list of prior values can be seen with `git reflog`.
-
-Diff and log between two branches (all changes on both branches)
--------------------------------------------
+## Diff and log between two branches (all changes on both branches)
 
 To see all changes between two branches, use `diff` with two or three dots and `log` with three dots between branch names.
-
-<!-- more -->
 
 Note: the confusing part is that `log` with two dots only shows changes on one branch, while `diff` with two dots includes changes on both branches (showing changes from one branch as removed and from another branch - as added).
 See the section below on how to see only new changes on the branch.
@@ -47,7 +21,9 @@ For example, we have a history like this:
                 E ---- F  branch
 ```
 
-List of new commits on both branches (log with three dots):
+### List of new commits on both branches (log with three dots):
+
+<!-- more -->
 
 ```bash
 git log master...branch
@@ -65,7 +41,7 @@ commit > E
 commit < C
 ```
 
-Diff with two dots, `master` commits shown as removed changes, `branch` commits - as added:
+### Diff with two dots, `master` commits shown as removed changes, `branch` commits - as added:
 
 ```bash
 git diff master..branch
@@ -78,7 +54,7 @@ git diff master branch
 +changes from E,F
 ```
 
-Diff with two dots, `branch` commits are shown as removed changes, `master` commits as added:
+### Diff with two dots, `branch` commits are shown as removed changes, `master` commits as added:
 
 ```bash
 git diff branch..master
@@ -91,8 +67,7 @@ git diff branch master
 -changes from E,F
 ```
 
-Diff and log between two branches (only branch changes)
--------------------------------------------
+## Diff and log between two branches (only branch changes)
 
 Often, we want to only see changes on the branch, without seeing what has changed on master (or on another base branch).
 
@@ -106,7 +81,7 @@ For example, we have a history like this:
                 E ---- F  branch
 ```
 
-List of new commits on `branch` (log with two dots):
+### List of new commits on `branch` (log with two dots):
 
 ```bash
 git log master..branch
@@ -114,7 +89,7 @@ F
 E
 ```
 
-List of new commits on `branch` (cherry):
+### List of new commits on `branch` (cherry):
 
 ```bash
 git cherry master
@@ -128,7 +103,7 @@ git cherry -v master
 
 The `git cherry` command provides a more compact output with the list of new commits on the `branch` comparing to `master`.
 
-List of new commits on `master` (log with two dots):
+### List of new commits on `master` (log with two dots):
 
 ```bash
 git log branch..master
@@ -136,7 +111,7 @@ D
 C
 ```
 
-Diff, only new commits on `branch` (log with two dots and `-p` or diff with three dots):
+### Diff, only new commits on `branch` (log with two dots and `-p` or diff with three dots):
 
 ```bash
 git log -p master..branch
@@ -148,7 +123,7 @@ git diff master...branch
 +changes from F
 ```
 
-Diff, only new commits on `master` (log with two dots and `-p` or diff with tree dots):
+### Diff, only new commits on `master` (log with two dots and `-p` or diff with tree dots):
 
 ```bash
 git log -p branch..master
@@ -160,8 +135,7 @@ git diff branch...master
 +changes from D
 ```
 
-Git diff and log inconsistency
--------------------------------------------
+## Git diff and log inconsistency
 
 In the sections above we can see that git diff and git log with three and two dots seem to behave inconsistently:
 
@@ -199,8 +173,28 @@ It is more consistent and easier to remember - less dots (two) - less changes (o
 - `git log master...branch` - new commits on both `master` and `branch`
 - `git log -p master...branch` - changes on both `master` and `branch`
 
-Log without merge commits
--------------------------------------------
+## Diff staged changes
+
+Show staged changes - added to index, but not commited yet:
+
+```bash
+git diff --cached
+# or
+git diff --staged
+```
+
+## Diff pulled changes
+
+Show diff of changes pulled from upstream:
+
+```bash
+git pull origin
+git diff @{1}..
+```
+
+Here `@` means `HEAD` and `@{1}` means "prior value of the HEAD", the list of prior values can be seen with `git reflog`.
+
+## Log without merge commits
 
 To show the log without merge commits use `--no-merges` flag:
 
@@ -208,8 +202,7 @@ To show the log without merge commits use `--no-merges` flag:
 git log --no-merges
 ```
 
-Log without other branch commits
--------------------------------------------
+## Log without other branch commits
 
 To exclude commits on `master` (or another) branch, use `--not` flag:
 
@@ -244,8 +237,7 @@ git log refA refB ^refC
 git log refA refB --not refC
 ```
 
-Git log formatting
--------------------------------------------
+## Git log formatting
 
 Log with diff (p), only last two entries:
 
@@ -291,8 +283,8 @@ Log formatting options:
 %s  Subject
 ```
 
-Links
--------------------------------------------
+## Links
+
 [Stackoverflow: How can I generate a git diff of what's changed since the last time I pulled?](http://stackoverflow.com/questions/61002/how-can-i-generate-a-git-diff-of-whats-changed-since-the-last-time-i-pulled)
 
 [Stackoverflow: What are the differences between double-dot ".." and triple-dot "..." in Git diff commit ranges?](https://stackoverflow.com/questions/7251477/what-are-the-differences-between-double-dot-and-triple-dot-in-git-dif)
