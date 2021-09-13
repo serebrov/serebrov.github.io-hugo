@@ -11,7 +11,8 @@ url: "/html/2021-09-13-git-update-commit-message.html"
 To change the last commit message, use `commit` with `--amend` flag:
 
 ```
-Careful: `commit --amend` will rewirte history, do not use on public branches.
+Careful: `commit --amend` will rewirte history,
+do not use on public branches.
 ```
 
 ```bash
@@ -20,7 +21,7 @@ $ git commit --amend
 
 It will open an editor and change the commit message, changes will be applied after saving the file and closing the editor.
 
-# Advanced: Change Any Commit Message
+# Advanced: Change Any Commit Message or Multiple Commit Messages
 
 Besides other things, interactive rebase allows editing commit messages:
 

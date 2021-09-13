@@ -1,5 +1,5 @@
 ---
-title: "git - how to move history to another repository"
+title: "git - how to move files with history to another repository"
 date: 2021-09-13
 tags: [git]
 type: post
