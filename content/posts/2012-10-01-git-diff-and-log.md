@@ -202,7 +202,7 @@ To show the log without merge commits use `--no-merges` flag:
 git log --no-merges
 ```
 
-## Log without other branch commits
+## Log without another branch commits
 
 To exclude commits on `master` (or another) branch, use `--not` flag:
 
