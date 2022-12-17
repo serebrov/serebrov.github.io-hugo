@@ -28,15 +28,7 @@ A collection of links to touch typing tutors and games.
 *   [TypingStudy](https://www.typingstudy.com/) - Touch Typing Practice Online
 *   [Ngram Type](https://ranelpadon.github.io/ngram-type/) - Practice typing bigrams, trigrams, tetragrams and top words
 
-## Software
-
-*   [Fonttype](http://frontype.com/about_two.php) (windows) - Look front. Type looking front. Frontype!.
-    *   Onscreen keyboard to learn typing (instead of tutors). Interesting idea, I didn't try this myself
-*   [GNU Typist](http://www.gnu.org/software/gtypist/) (cross-platform) - typing tutor
-*   The Typing of the Dead (windows game) - [Wikipedia](https://en.wikipedia.org/wiki/The_Typing_of_the_Dead?oldformat=true), [Steam](https://store.steampowered.com/app/246580/The_Typing_of_The_Dead_Overkill/)
-*   [Typing chronicles](http://www.epistorygame.com/) - a beautiful atmospheric 3D action/adventure typing game
-
-## Touch Typing Games
+## Online Games
 
 *   [Nitro Type](https://www.nitrotype.com/) - Competitive Typing Game | Race Your Friends
 *   [TypeRacer](https://play.typeracer.com/) - Free typing game and competition
@@ -44,6 +36,17 @@ A collection of links to touch typing tutors and games.
 *   [ZType](https://zty.pe/) – Typing Game - Type to Shoot
 *   [Hacker Typer](http://hackertyper.com/) - just start typing anything to look smart
 *   [git-invaders](http://animuchan.net/git-invaders/) ★ GitHub Game Off 2012
+
+##  Desktop Games
+*   [Epistory Typing chronicles](http://www.epistorygame.com/) - a beautiful atmospheric 3D action/adventure typing game
+*   [Nanotale Typing Chronicles](https://nanotalegame.com/) - one more typing advengure game
+*   The Typing of the Dead (windows game) - [Wikipedia](https://en.wikipedia.org/wiki/The_Typing_of_the_Dead?oldformat=true), [Steam](https://store.steampowered.com/app/246580/The_Typing_of_The_Dead_Overkill/)
+
+##  Desktop Software
+
+*   [Fonttype](http://frontype.com/about_two.php) (windows) - Look front. Type looking front. Frontype!.
+    *   Onscreen keyboard to learn typing (instead of tutors). Interesting idea, I didn't try this myself
+*   [GNU Typist](http://www.gnu.org/software/gtypist/) (cross-platform) - typing tutor
 
 ## Keyboard Memo
 
