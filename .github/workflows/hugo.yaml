@@ -65,6 +65,7 @@ jobs:
       - name: Commit public files
         working-directory: ./public
         run: |
+          git checkout master
           git add .
           msg="rebuilding site $(date)" && git commit -m "$msg" && git push origin master
       - name: Commit public submodule ref
