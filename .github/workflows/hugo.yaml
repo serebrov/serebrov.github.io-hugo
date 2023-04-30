@@ -36,6 +36,13 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          # We need to specify the token as we need write access to two
+          # prepositories (this and serebrov.github.io where public pages
+          # are stored, it is added as a submodule).
+          # The token has expiration time, can be created here:
+          # https://github.com/settings/tokens
+          # And then added in the current repository
+          # Settings - Secrets and variables - actions.
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - name: Install Node.js dependencies
         run: '[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true'
@@ -61,5 +68,5 @@ jobs:
           git push origin master
           cd ..
           git add .
-          msg="update public ref $(date)" && git commit -m "$msg"
+          msg="[ci skip] update public ref $(date)" && git commit -m "$msg"
           git push origin master
