@@ -6,7 +6,7 @@ type: note
 url: "/html/2012-04-03-vim-replace-word-with-yanked-text.html"
 ---
 
-It is ofen useful to copy let's say `new_name` to clipboard and then replace one or more ocurrences of `old_name` with it.
+It is often useful to copy, let's say `new_name`, to clipboard and then replace one or more occurrences of `old_name` with it.
 We can use `:%s/new_name/old_name/g` for that, but sometimes it is more convenient to go over the text and do replacements "manually".
 
 A possible way to do that in `vim` is:
@@ -21,7 +21,7 @@ This behavior is nice when we actually deleted something, for example, if we did
 
 <!-- more -->
 
-At this point we have a couple of choices to continue pasting `new_name`:
+At this point, we have a couple of choices to continue pasting `new_name`:
 
 * Option 1: `gvy` (`gv` - reselect last selection, `y` - copy) to reselect `new_name` and copy it again and then do `viwp` on another word
 * Option 2: use `viw"0p` on another word, here `"0p` will paste from `0` register (the default register now contains `old_name` and `"0` register contains the previously `yank`ed `new_name`)
@@ -43,7 +43,7 @@ The solution that works quite well for me is the following mapping
 xnoremap p pgvy
 ```
 
-As mentioned above the default Vim behavior is counter-intuitive when we paste over the selection: most of the time we do not need the text we pasted over (so do not want it to get into the default `""` register), but the same behavior is useful when we explicitely delete something (`dw` a word and the `p`aste it somewhere else).
+As mentioned above, the default Vim behavior is counter-intuitive when we paste over the selection: most of the time we do not need the text we pasted over (so do not want it to get into the default `""` register), but the same behavior is useful when we explicitely delete something (`dw` a word and the `p`aste it somewhere else).
 
 The mapping above only redefines the first case:
 
