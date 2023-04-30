@@ -55,18 +55,22 @@ jobs:
           hugo \
             --gc \
             --minify
-      - name: Commit
+      - name: Prepare commit
         # We need to commit change to both this repository and
         # the submodle, another repository, that keeps all public
         # files (deployed via github pages).
         run: |
           git config --global user.name 'Borys Serebrov'
           git config --global user.email 'serebrov@users.noreply.github.com'
-          cd public
+      - name: Commit public files
+        working-directory: ./public
+        run: |
           git add .
           msg="rebuilding site $(date)" && git commit -m "$msg"
           git push origin master
           cd ..
+      - name: Commit public submodule ref
+        run: |
           git add .
           msg="[ci skip] update public ref $(date)" && git commit -m "$msg"
           git push origin master
