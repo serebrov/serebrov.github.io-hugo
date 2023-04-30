@@ -1,5 +1,5 @@
 ---
-title: vim - replace a word with yanked text
+title: vim - replace a word with yanked text multiple times
 date: 2012-04-03
 tags: [vim]
 type: note
