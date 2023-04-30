@@ -35,6 +35,24 @@ Note: The token has expiration time, can be created here: https://github.com/set
     token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 ```
 
+Configure git:
+
+```yaml
+- name: Configure git
+  run: |
+    git config --global user.name 'Borys Serebrov'
+    git config --global user.email 'serebrov@users.noreply.github.com'
+```
+
+In the submodule directory (`working-directory: ./public`), switch to `master` branch (it should be the same commit, but the submodule initially in the detached HEAD state, not on the branch):
+
+```yaml
+- name: Prepare the submodule
+  working-directory: ./public
+  run: |
+    git checkout master
+```
+
 Rebuild the content by running `hugo`:
 
 ```yaml
@@ -42,16 +60,7 @@ Rebuild the content by running `hugo`:
   run: hugo --gc --minified
 ```
 
-Configure git:
-
-```yaml
-- name: Prepare commit
-  run: |
-    git config --global user.name 'Borys Serebrov'
-    git config --global user.email 'serebrov@users.noreply.github.com'
-```
-
-In the submodule directory (`working-directory: ./public`), switch to `master` branch (it should be the same commit, but the submodule initially in the detached HEAD state, not on the branch), add all changes, commit and push to the parent repository:
+In the submodule directory: add all changes, commit and push to the parent repository:
 
 ```yaml
 - name: Commit public files

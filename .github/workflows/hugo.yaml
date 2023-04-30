@@ -36,7 +36,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          # We need to specify the token as we need write access to two
+          # We need to specify the boken as we need write access to two
           # prepositories (this and serebrov.github.io where public pages
           # are stored, it is added as a submodule).
           # The token has expiration time, can be created here:
@@ -46,26 +46,26 @@ jobs:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - name: Install Node.js dependencies
         run: '[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true'
-      - name: Build with Hugo
-        env:
-          # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-            --gc \
-            --minify
-      - name: Prepare commit
+      - name: Configure git
         # We need to commit change to both this repository and
         # the submodle, another repository, that keeps all public
         # files (deployed via github pages).
         run: |
           git config --global user.name 'Borys Serebrov'
           git config --global user.email 'serebrov@users.noreply.github.com'
-      - name: Commit public files
+      - name: Prepare the submodule
         working-directory: ./public
         run: |
           git checkout master
+      - name: Build with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: hugo --gc --minify
+      - name: Commit public files
+        working-directory: ./public
+        run: |
           git add .
           msg="rebuilding site $(date)" && git commit -m "$msg" && git push origin master
       - name: Commit public submodule ref
