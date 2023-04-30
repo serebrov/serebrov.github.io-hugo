@@ -47,11 +47,9 @@ As mentioned above, the default Vim behavior is counter-intuitive when we paste 
 
 The mapping above only redefines the first case:
 
-```
-xnoremap - map only in visual mode, when we have something selected
-p - redefine `p` behavior
-pgvy - `p` past, `gv` reselect what we've just pasted, `y` copy back what we've just pasted
-```
+* `xnoremap` - map only in visual mode, when we have something selected
+* `p` - redefine `p` behavior
+* `pgvy` - `p` past, `gv` reselect what we've just pasted, `y` copy back what we've just pasted
 
 With this mapping, we can still use Vim's standard behavior if needed by using `gp` instead of `p` (`gp` is almost the same as p, with cursor left after the pasted text instead of the last char of it).
 
