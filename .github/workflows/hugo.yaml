@@ -36,6 +36,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          token: '${{ secrets.PERSONAL_ACCESS_TOKEN }}'
       - name: Install Node.js dependencies
         run: '[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true'
       - name: Build with Hugo
@@ -48,6 +49,9 @@ jobs:
             --gc \
             --minify
       - name: Commit
+        # We need to commit change to both this repository and
+        # the submodle, another repository, that keeps all public
+        # files (deployed via github pages).
         run: |
           git config --global user.name 'Borys Serebrov'
           git config --global user.email 'serebrov@users.noreply.github.com'
