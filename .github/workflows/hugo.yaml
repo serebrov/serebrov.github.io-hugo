@@ -51,6 +51,11 @@ jobs:
         run: |
           git config --global user.name 'Borys Serebrov'
           git config --global user.email 'serebrov@users.noreply.github.com'
+          cd public
           git add .
           msg="rebuilding site $(date)" && git commit -m "$msg"
+          git push origin master
+          cd ..
+          git add .
+          msg="update public ref $(date)" && git commit -m "$msg"
           git push origin master
