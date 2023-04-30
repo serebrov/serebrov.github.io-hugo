@@ -3,6 +3,7 @@ node_modules
 .mypy_cache
 Session.vim
 venv
+.hugo_build.lock
 
 static/git-revert/repository
 public/git-revert/repository
