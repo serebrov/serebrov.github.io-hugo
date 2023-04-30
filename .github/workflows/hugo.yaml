@@ -66,8 +66,7 @@ jobs:
         working-directory: ./public
         run: |
           git add .
-          msg="rebuilding site $(date)" && git commit -m "$msg"
-          git push origin master
+          msg="rebuilding site $(date)" && git commit -m "$msg" && git push origin master
       - name: Commit public submodule ref
         run: |
           git add .
