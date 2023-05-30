@@ -1,5 +1,5 @@
 ---
-title: How to keep git log and less output on the screen
+title: How to keep `git log` and `git diff` output on the screen after exit
 date: 2014-01-04
 tags: [git]
 type: note
