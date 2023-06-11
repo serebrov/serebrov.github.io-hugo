@@ -23,7 +23,7 @@ Alternatively, edit the `~/.gitconfig` and add settings there:
 [mergetool "kdiff3"]
 	cmd = kdiff3 $LOCAL $REMOTE $BASE -o $MERGED
 [diff "kdiff3"]
-  cmd = kdiff3 $LOCAL $REMOTE
+	cmd = kdiff3 $LOCAL $REMOTE
 [merge]
 	tool = kdiff3
 [diff]
