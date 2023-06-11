@@ -1,7 +1,7 @@
 ---
 title: "How to format large JSON file in command line"
 date: 2023-06-11
-tags: [git]
+tags: [json, cmd]
 type: note
 url: "/html/2023-06-11-format-json-command-line.html"
 ---
