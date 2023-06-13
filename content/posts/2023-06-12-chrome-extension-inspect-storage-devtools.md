@@ -1,9 +1,9 @@
 ---
 title: "How to inspect extension `chrome.storage` in Chrome DevTools"
-date: 2023-06-13
+date: 2023-06-12
 tags: [git]
 type: note
-url: "/html/2023-06-13-chrome-extension-inspect-storage.html"
+url: "/html/2023-06-12-chrome-extension-inspect-storage-devtools.html"
 ---
 
 The extension storage is not displayed under the "Application" tab in Chrome DevTools, but
