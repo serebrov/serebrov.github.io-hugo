@@ -4,6 +4,7 @@ node_modules
 Session.vim
 venv
 .hugo_build.lock
+.DS_Store
 
 static/git-revert/repository
 public/git-revert/repository

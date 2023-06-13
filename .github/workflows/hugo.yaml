@@ -63,11 +63,6 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: hugo --gc --minify
-      - name: Copy static assets
-        working-directory: .
-        run: |
-          rm -rf ./public/static
-          cp -r static ./public/static
       - name: Commit public files
         working-directory: ./public
         run: |
