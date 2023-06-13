@@ -23,8 +23,8 @@ with `chrome.storage.local.get(null).then((data) => console.log(data))`.
 
 <!-- more -->
 
-![extension storage access](./2023-06-13-chrome-extnension-storage.png)
+![extension storage access](2023-06-13-chrome-extnension-storage.png)
 
 The demo:
 
-![extension storage demo](./2023-06-13-chrome-extension-storage.mp4)
+![extension storage demo](2023-06-13-chrome-extension-storage.mp4)
