@@ -10,11 +10,12 @@ I want to debug a flaky test and run it multiple times until the test runner ret
 
 Here is how to do that with a one-liner:
 
-```
+```bash
 # Put the command to run into a variable, for convenience
 CMD="npm run test:unit -- tests/unit/MyTest.spec.ts -t \"'my test case'\""
 # Run it multiple times until it fails
 while eval $CMD; do echo "Command succeeded, retrying..."; done
+```
 
 <!-- more -->
 
