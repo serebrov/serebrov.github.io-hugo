@@ -6,7 +6,7 @@ type: note
 url: "/html/2023-07-20-bash-how-to-run-command-until-it-fails.html"
 ---
 
-I want to debug a flacky test and run it multiple times until the test runner returns non-zero code.
+I want to debug a flaky test and run it multiple times until the test runner returns non-zero code.
 
 Here is how to do that with a one-liner:
 
@@ -14,7 +14,7 @@ Here is how to do that with a one-liner:
 # Put the command to run into a variable, for convenience
 CMD="npm run test:unit -- tests/unit/MyTest.spec.ts -t \"'my test case'\""
 # Run it multiple times until it fails
-while $CMD; do echo "Command succeeded, retrying..."; done
+while eval $CMD; do echo "Command succeeded, retrying..."; done
 
 <!-- more -->
 
