@@ -14,7 +14,7 @@ Here is how to do that with a one-liner:
 # Put the command to run into a variable, for convenience
 CMD="npm run test:unit -- tests/unit/MyTest.spec.ts -t \"'my test case'\""
 # Run it multiple times until it fails
-while eval $CMD; do echo "Command succeeded, retrying..."; done
+cnt=1; while eval $CMD; do echo "Command succeeded, attempt $cnt"; ((cnt++)); done
 ```
 
 <!-- more -->
