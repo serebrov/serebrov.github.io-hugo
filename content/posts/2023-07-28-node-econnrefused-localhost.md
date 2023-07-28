@@ -1,7 +1,7 @@
 ---
 title: "node - localhost connect error ECONNREFUSED ::1:4723 in node 17 and node 18"
 date: 2023-07-28
-tags: [node]
+tags: [node.js]
 type: note
 url: "/html/2023-07-28-node-econnrefused-localhost.html"
 ---
