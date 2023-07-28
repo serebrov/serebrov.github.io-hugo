@@ -1,5 +1,5 @@
 ---
-title: "node - localhost connect error ECONNREFUSED ::1:4723 in node 17 and node 18"
+title: "node - localhost connection error ECONNREFUSED ::1:4723 in node 17 and node 18"
 date: 2023-07-28
 tags: [node.js]
 type: note
