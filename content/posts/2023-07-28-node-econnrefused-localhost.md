@@ -19,7 +19,7 @@ The errors look like this:
 
 The `localhost` resolves to IPv6 address `::1` and the connection fails as the server (Appium) only runs on IPv4 address (`127.0.0.1`).
 
-<-- more -->
+<!-- more -->
 
 The problem is caused by the change in Node's DNS lookup procedure and
 starting with Node 17, it does not resolve `localhost` to `127.0.0.1` (IPv4 address)
