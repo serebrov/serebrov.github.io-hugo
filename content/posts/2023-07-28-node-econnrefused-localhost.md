@@ -23,7 +23,7 @@ The `localhost` resolves to IPv6 address `::1` and the connection fails as the s
 
 The problem is caused by the change in Node's DNS lookup procedure and
 starting with Node 17, it does not resolve `localhost` to `127.0.0.1` (IPv4 address)
-by default (instead it got resolved to IPv6 `::1` address which caused connection error):
+by default (instead, it got resolved to the IPv6 `::1` address which caused a connection error):
 
 >  Node.js no longer re-sorts results of IP address lookups and returns them as-is (i.e. it no longer ignores how your OS has been configured)
 
@@ -35,16 +35,18 @@ Possible solutions are:
 * Update your server applications to listen to both IPv4 (`127.0.0.1`) and IPv6 addresses (`::1`)
 * Downgrade to Node 16 or upgrade to Node 20 (one more change here to automatically fallback to IPv4, so it works again).
 
-For example, to fix the problvem with `npx wait-on http://localhost:8080`, change it to `npx wait-on http://127.0.0.1:8080`.
+For example, to fix the problem with `npx wait-on http://localhost:8080`, change it to `npx wait-on http://127.0.0.1:8080`.
 If you also control the server-side code, consider starting the server both on IPv4 and IPv6 addresses.
 
 It becomes more complex if you do not have control over either the client or the server code.
-In the case with native webdriver.io tests, it both starts the server (Appium)
+In the case of native webdriver.io tests, it both starts the server (Appium)
 and acts as a client, trying to connect to it via `http://localhost:4723`.
-I found a configation option to change the
+
+I found a configuration option to change the
 [port](https://webdriver.io/docs/appium-service/#options),
-but I didn't find a way to configure Appium server address
+but I didn't find a way to configure the Appium server address
 (to change `localhost` to `127.0.0.1`).
+
 As a simpler solution, I switched to Node 20 before running tests:
 
 ```bash
@@ -54,4 +56,4 @@ cd e2e-webdriver
 npm run test:ios
 ```
 
-This way tests run with Node 20 that has a fall-back to IPv4 and connection works.
+This way tests run with Node 20 that has a fall-back to IPv4 and the connection works.
