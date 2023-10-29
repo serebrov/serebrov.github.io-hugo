@@ -14,6 +14,12 @@ The public files repository is served via [Git pages](https://pages.github.com/)
 - git add, git commit
 - Run `./deploy.sh`
 
+# Possible issues
+
+The page does not get rendered if the `date` in the frontmatter is in the incorrect format or in the future.
+
+It is possible to build pages with future date using the flag `hugo --buildFuture` (but in my case it was just a mistake, I used 2023-11 instead of 2023-10 and was wondering why the page does not get built).
+
 # Automated Setup
 
 The build is automated using [github actions](https://docs.github.com/en/actions). When we edit/add files in the `content` folder locally or directly on Github, the live site is updated automatically.
