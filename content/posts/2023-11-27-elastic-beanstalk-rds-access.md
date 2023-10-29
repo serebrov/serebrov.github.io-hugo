@@ -16,7 +16,9 @@ A more convenient method is to use a "proxy" security group:
 * Add proxy group to the ElasticBeanstalk security groups
 
 The convenience is that we do not have to edit security groups anymore, we just add the "proxy" group in environment settings.
+
 <!-- more -->
+
 This can be done in the UI, by ticking the checkbox in the list of security groups or by adding a config like this:
 
 ```yaml
