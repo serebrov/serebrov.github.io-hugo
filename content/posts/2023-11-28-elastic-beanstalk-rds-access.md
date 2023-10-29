@@ -1,9 +1,9 @@
 ---
 title: "Elastic Beanstalk - how to configure access to external RDS database"
-date: 2023-11-27
+date: 2023-11-28
 tags: [aws, eb, rds]
 type: note
-url: "/html/2023-11-27-elastic-beanstalk-rds-access.html"
+url: "/html/2023-11-28-elastic-beanstalk-rds-access.html"
 ---
 
 I used to configure ElasticBeanstalk access to the external RDS database by editing inbound rules for the security group attached to the database.
