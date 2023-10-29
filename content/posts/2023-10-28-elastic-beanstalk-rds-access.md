@@ -1,6 +1,6 @@
 ---
-title: "Elastic Beanstalk - how to configure access to external RDS database"
-date: 2023-11-28
+title: "Elastic Beanstalk - how to configure access to the external RDS database"
+date: 2023-10-28
 tags: [aws, eb, rds]
 type: note
 url: "/html/2023-11-28-elastic-beanstalk-rds-access.html"
