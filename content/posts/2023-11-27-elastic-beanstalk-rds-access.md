@@ -19,7 +19,7 @@ The convenience is that we do not have to edit security groups anymore, we just 
 <!-- more -->
 This can be done in the UI, by ticking the checkbox in the list of security groups or by adding a config like this:
 
-```
+```yaml
 # Add to .ebextensions/app.config or as a separate *.config file 
 option_settings:
   aws:autoscaling:launchconfiguration:
