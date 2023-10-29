@@ -31,6 +31,4 @@ option_settings:
     - rds-another-db-name-access
 ```
 
-I have one more idea on how to make the setup safer and avoid manual security groups configuration:
-
 Related [documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/rds-external-defaultvpc.html).
