@@ -63,6 +63,11 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: hugo --gc --minify
+      - name: Run status
+        run: git status
+      - name: Run status in public dir
+        working-directory: ./public
+        run: git status
       - name: Commit public files
         working-directory: ./public
         run: |
