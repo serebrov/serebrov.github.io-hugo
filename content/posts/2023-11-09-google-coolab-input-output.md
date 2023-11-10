@@ -1,6 +1,6 @@
 ---
 title: "Google Colab notebook - input and output, OpenAI TTS API"
-date: 2023-10-28
+date: 2023-11-09
 tags: [google-colab, ai, tts]
 type: note
 url: "/html/2023-11-09-google-colab-input-and-output-openai-tts.html"
