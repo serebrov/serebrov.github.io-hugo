@@ -20,7 +20,7 @@ I was reviewing my [layout](https://configure.zsa.io/voyager/layouts/aldqO/lates
 
 I use two space keys because when I was learning touch typing, there was a rule to use the opposite thumb for space depending on the last letter typed. For example, after typing "one", press the space with the right thumb (after "e" which is on the left side), and after typing "two" press the space with the left thumb (after "o" which is on the right side).
 
-But most of ergo layouts I saw use one space with backspace or enter on the other side which is quite a win on small layouts (more functions can be moved to thumb keys). For example, [miryoku](https://github.com/manna-harbour/miryoku) has a spacebar on the left and backspace on the right:
+But most of ergo layouts I saw use one space with backspace or enter on the other side which is a good win on small layouts (more functions can be moved to thumb keys). For example, [miryoku](https://github.com/manna-harbour/miryoku) has a spacebar on the left and backspace on the right:
 
 ![miryoku layout](miryoku-kle-cover.png)
 
