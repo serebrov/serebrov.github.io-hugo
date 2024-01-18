@@ -14,19 +14,18 @@ A collection of links to touch typing tutors and games.
 ## Online Typing Tutors
 
 *   [keybr.com](https://keybr.com/) - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
-*   [keyhero.com](https://keyhero.com/) - Typing test and lessons
-*   [speedcoder.net](https://www.speedcoder.net/) - Online Typing Practice for Programmers
-*   [The Typing Cat](https://thetypingcat.com/ ) - Free online keyboard typing tutor
-*   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
 *   [monkeytype.com](https://monkeytype.com/) - a minimalistic, customizable typing test, featuring many test modes, [open source](https://github.com/Miodec/monkey-type)
+*   [keyhero.com](https://keyhero.com/) - Typing test and lessons
+*   [The Typing Cat](https://thetypingcat.com/ ) - Free online keyboard typing tutor
+*   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [Ratatype](https://www.ratatype.com/) — Online typing tutor and typing lessons
 *   [Typing Scout](https://typingscout.com/en/ ) - Faster typing means more spare time :)
-*   [Solotyping](http://solotyping.com/?locale_id=2) - Touch Typing Course | Online Typing Test | Learn to Type Faster
 *   [10FastFingers.com](https://10fastfingers.com/) - [Typing Test](https://10fastfingers.com/typing-test/english), Competitions, Practice & Typing Games
 *   [TyperA](http://typera.net/) - the original typing test
 *   [TypingStudy](https://www.typingstudy.com/) - Touch Typing Practice Online
 *   [Ngram Type](https://ranelpadon.github.io/ngram-type/) - Practice typing bigrams, trigrams, tetragrams and top words
+*   [speedcoder.net](https://www.speedcoder.net/) - Online Typing Practice for Programmers
 
 ## Online Games
 
@@ -35,7 +34,6 @@ A collection of links to touch typing tutors and games.
 *   [Клавогонки](http://klavogonki.ru/) - racing game
 *   [ZType](https://zty.pe/) – Typing Game - Type to Shoot
 *   [Hacker Typer](http://hackertyper.com/) - just start typing anything to look smart
-*   [git-invaders](http://animuchan.net/git-invaders/) ★ GitHub Game Off 2012
 
 ##  Desktop Games
 *   [Epistory Typing chronicles](http://www.epistorygame.com/) - a beautiful atmospheric 3D action/adventure typing game
