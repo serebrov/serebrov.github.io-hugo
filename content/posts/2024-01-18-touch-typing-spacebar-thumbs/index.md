@@ -16,7 +16,7 @@ A collection of links to touch typing tutors and games.
 
 I was reviewing my [layout](https://configure.zsa.io/voyager/layouts/aldqO/latest/0) and I traditionally have two symmetrical spacebar keys on my layouts:
 
-![my Voyager layout](my-voyager-layout.png)
+![my Voyager layout](voyager-my-layout.png)
 
 But most of ergo layouts I saw use one space with backspace or enter on the other side which is quite a win on small layouts (more functions are moved to thumb keys). For example, [miryoku](https://github.com/manna-harbour/miryoku) has a spacebar on the left and backspace on the right:
 
