@@ -1,5 +1,5 @@
 ---
-title: Touch Typing: Spacebar and Thumbs
+title: "Touch Typing: Spacebar and Thumbs"
 date: 2024-01-18
 tags: [kbd, typing]
 type: note
