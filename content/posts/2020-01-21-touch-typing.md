@@ -30,6 +30,7 @@ A collection of links to touch typing tutors and games.
 *   [Typing Scout](https://typingscout.com/en/ ) - Faster typing means more spare time :)
 *   [10FastFingers.com](https://10fastfingers.com/) - [Typing Test](https://10fastfingers.com/typing-test/english), Competitions, Practice & Typing Games
 *   [TyperA](http://typera.net/) - the original typing test
+*   [Typing Academy](https://www.typing.academy/) - typing test and practice
 *   [TypingStudy](https://www.typingstudy.com/) - Touch Typing Practice Online
 *   [Ngram Type](https://ranelpadon.github.io/ngram-type/) - Practice typing bigrams, trigrams, tetragrams and top words
 *   [speedcoder.net](https://www.speedcoder.net/) - Online Typing Practice for Programmers
