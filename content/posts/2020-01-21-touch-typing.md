@@ -38,6 +38,7 @@ A collection of links to touch typing tutors and games.
 
 *   [Nitro Type](https://www.nitrotype.com/) - Competitive Typing Game | Race Your Friends
 *   [typinggames.zone](https://www.typinggames.zone/) - typing games
+*   [kidztype.com](https://www.kidztype.com/browse-typing-games.html) - typing games for kids
 *   [TypeRacer](https://play.typeracer.com/) - Free typing game and competition
 *   [Клавогонки](http://klavogonki.ru/) - racing game
 *   [ZType](https://zty.pe/) – Typing Game - Type to Shoot
