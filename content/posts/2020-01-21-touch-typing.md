@@ -35,6 +35,10 @@ A collection of links to touch typing tutors and games.
 *   [Ngram Type](https://ranelpadon.github.io/ngram-type/) - Practice typing bigrams, trigrams, tetragrams and top words
 *   [speedcoder.net](https://www.speedcoder.net/) - Online Typing Practice for Programmers
 
+## Other
+
+* [https://www.shortcutfoo.com/app](https://www.shortcutfoo.com/app) - learn shortcuts for apps (photoshop, figma, slack, etc) and editors (vim, vscode, etc)
+
 ## Online Games
 
 *   [Nitro Type](https://www.nitrotype.com/) - Competitive Typing Game | Race Your Friends
@@ -55,6 +59,7 @@ A collection of links to touch typing tutors and games.
 *   [Fonttype](http://frontype.com/about_two.php) (windows) - Look front. Type looking front. Frontype!.
     *   Onscreen keyboard to learn typing (instead of tutors). Interesting idea, I didn't try this myself
 *   [GNU Typist](http://www.gnu.org/software/gtypist/) (cross-platform) - typing tutor
+*   [mltype](https://github.com/jankrepl/mltype) - command-line typing practice for programmers
 
 ## Keyboard Memo
 
