@@ -16,7 +16,14 @@ A collection of links to touch typing tutors and games.
 *   [keybr.com](https://keybr.com/) - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
 *   [monkeytype.com](https://monkeytype.com/) - a minimalistic, customizable typing test, featuring many test modes, [open source](https://github.com/Miodec/monkey-type)
+*   [Programmer's typing practice](https://climech.github.io/typing-practice/) - no timers, no WPMs—just a never-ending stream of gibberish, [open source](https://github.com/climech/typing-practice)
+*   [speedtyper.dev](https://www.speedtyper.dev/) - Typing competitions for programmers, code snippets from open source projects in different languages, [open source](https://github.com/codicocodes/speedtyper.dev/tree/main)
+*   [typelit.io](https://www.typelit.io/) - practice typing by retyping entire novels
+*   [codingspeedtest.com](https://codingspeedtest.com/) - coding speed test, different languages (including [assembly](https://codingspeedtest.com/?language=asm6502) and [machine code](https://codingspeedtest.com/?language=machine))
+*   [typingmentor.com](https://typingmentor.com/typing-practice/) - typing practice, live per-word wpm measurements
 *   [keyhero.com](https://keyhero.com/) - Typing test and lessons
+*   [learntyping.org](https://www.learntyping.org/) - typing lessons with detailed explanations
+*   [Typing Bee](https://www.typingbee.com/) - typing lessons and games
 *   [The Typing Cat](https://thetypingcat.com/ ) - Free online keyboard typing tutor
 *   [TypingClub](https://www.typingclub.com/) - Learn Touch Typing Free
 *   [Ratatype](https://www.ratatype.com/) — Online typing tutor and typing lessons
@@ -30,6 +37,7 @@ A collection of links to touch typing tutors and games.
 ## Online Games
 
 *   [Nitro Type](https://www.nitrotype.com/) - Competitive Typing Game | Race Your Friends
+*   [typinggames.zone](https://www.typinggames.zone/) - typing games
 *   [TypeRacer](https://play.typeracer.com/) - Free typing game and competition
 *   [Клавогонки](http://klavogonki.ru/) - racing game
 *   [ZType](https://zty.pe/) – Typing Game - Type to Shoot
@@ -37,7 +45,7 @@ A collection of links to touch typing tutors and games.
 
 ##  Desktop Games
 *   [Epistory Typing chronicles](http://www.epistorygame.com/) - a beautiful atmospheric 3D action/adventure typing game
-*   [Nanotale Typing Chronicles](https://nanotalegame.com/) - one more typing advengure game
+*   [Nanotale Typing Chronicles](https://nanotalegame.com/) - one more typing adventure game
 *   The Typing of the Dead (windows game) - [Wikipedia](https://en.wikipedia.org/wiki/The_Typing_of_the_Dead?oldformat=true), [Steam](https://store.steampowered.com/app/246580/The_Typing_of_The_Dead_Overkill/)
 
 ##  Desktop Software
