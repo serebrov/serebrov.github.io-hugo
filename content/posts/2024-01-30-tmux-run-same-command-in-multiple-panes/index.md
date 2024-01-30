@@ -43,3 +43,46 @@ tmux attach -t $SESS
 It will work like this:
 
 {{< video src="2024-01-30-tmux-run-same-command-in-multiple-panes.mp4" type="video/mp4">}}
+
+Here is also a variation of the script that allows to add more panes to the existing session:
+
+```
+#!/bin/bash
+
+SESS='generation-jobs'
+CMD='sleep 1 && echo "Hello, World\!"'
+NUM_PANES=$1  # Number of panes to add, specified as the first script argument
+DELAY=5  # Delay in seconds
+
+# Check if the tmux session exists
+tmux has-session -t $SESS 2>/dev/null
+
+if [ $? != 0 ]; then
+  echo "Session $SESS does not exist, creating it..."
+  # Create a new session named "$SESS" and 
+  tmux new-session -d -s $SESS
+  # Send the command to the newly created pane
+  tmux send-keys -t $SESS "$CMD" Enter
+  let NUM_PANES=NUM_PANES-1  # Decrease NUM_PANES by 1 because the first pane is already used
+else
+  echo "Session $SESS exists, adding panes to it..."
+fi
+
+# Create additional panes and start command in each pane with a delay
+for i in $(seq 1 $NUM_PANES); do
+  echo "."
+  # Wait for DELAY seconds before starting the command
+  sleep $DELAY
+  
+  # Split window and create a new pane
+  tmux split-window -v -t $SESS
+  # Even out the panes in the current window
+  tmux select-layout -t $SESS tiled
+
+  # Send the command to the newly created pane
+  tmux send-keys -t $SESS "$CMD" Enter
+done
+
+# Attach to session named "$SESS"
+tmux attach -t $SESS
+```
