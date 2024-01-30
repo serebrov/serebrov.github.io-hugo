@@ -86,3 +86,8 @@ done
 # Attach to session named "$SESS"
 tmux attach -t $SESS
 ```
+
+# Related Links
+
+[AskUbuntu: Open 8 panes of TMUX and go to different directory in each one , and run a command in each pane?](https://askubuntu.com/questions/1320470/open-8-panes-of-tmux-and-go-to-different-directory-in-each-one-and-run-a-comma)
+[StackOverflow: TMUX: no space for new pane](https://stackoverflow.com/questions/68362719/tmux-no-space-for-new-pane)
