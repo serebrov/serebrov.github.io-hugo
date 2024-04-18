@@ -1,7 +1,7 @@
 ---
 title: "Profile Vue CLI Service Build (actually webpack build)"
 date: 2024-04-05
-tags: [google-colab, ai, tts]
+tags: [vue]
 type: note
 url: "/html/2024-04-05-profile-vue-cli-service-build.html"
 ---
