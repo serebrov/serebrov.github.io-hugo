@@ -6,7 +6,7 @@ type: note
 url: "/html/2024-04-05-profile-vue-cli-service-build-out-of-memory.html"
 ---
 
-# Solving the frontend build out-of-memory error
+# Solving the Vue app build out-of-memory error
 
 If you encounter an out-of-memory error during the frontend build, you can increase the memory limit for the node process by setting the `NODE_OPTIONS` environment variable:
 
