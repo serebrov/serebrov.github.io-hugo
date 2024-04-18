@@ -1,7 +1,7 @@
 ---
 title: "Vue CLI Service Build Out of Memory Error"
 date: 2024-04-05
-tags: [google-colab, ai, tts]
+tags: [vue]
 type: note
 url: "/html/2024-04-05-profile-vue-cli-service-build-out-of-memory.html"
 ---
