@@ -15,7 +15,7 @@ export NODE_OPTIONS=--max_old_space_size=8192
 npm run build -- --mode production
 ```
 
-Note that it should be enough to build the frontend application with the default memory limit. Increasing the limit is a temporary measure to be able to [profile and debug the build process](./html/2024-04-05-profile-vue-cli-service-build.html).
+Note that it should be enough to build the frontend application with the default memory limit. Increasing the limit is a temporary measure to be able to [profile and debug the build process](./2024-04-05-profile-vue-cli-service-build.html).
 
 The error may look like this:
 
