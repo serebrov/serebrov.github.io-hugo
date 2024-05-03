@@ -10,7 +10,7 @@ url: "/html/2024-04-05-profile-vue-cli-service-build.html"
 
 The vue cli build is managed by the `build` command of the `@vue/cli-service` package. The command is located in `node_modules/@vue/cli-service/lib/commands/build/index.js`.
 
-Looking into the code, there is not too much to debug or profile here, it boils down to this:
+Looking into [the code](https://github.com/vuejs/vue-cli/blob/f0f254e4bc81ed322eeb9f7de346e987e845068e/packages/%40vue/cli-service/lib/commands/build/index.js#L199), there is not too much to debug or profile here, it boils down to this:
 
 ```javascript
   // Compose the webpackConfig object
