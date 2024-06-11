@@ -3,7 +3,7 @@ title: OOP SOLID Principles "L" - Liskov Substitution Principle
 date: 2016-02-18
 tags: [oop]
 type: post
-url: "/html/2016-02-18-oop-solid-l-liskov-substitution-principle.md"
+url: "/html/2016-02-18-oop-solid-l-liskov-substitution-principle.html"
 ---
 
 According to the [Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle) the Liskov Substitution Principle (LSP) is defined as:
