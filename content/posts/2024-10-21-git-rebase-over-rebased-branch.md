@@ -130,8 +130,8 @@ git rebase --onto A B~2 B
 git rebase HEAD~2 --onto A
 ```
 
-This method is also user if we want to move existing branch to another root.
-For example, we decide that branch `B` actually does not depend on `A` and we want it to "grow" from master.
+This method is also useful if we want to move an existing branch to another root.
+For example, we decide that branch `B` does not depend on `A` and we want it to "grow" from master.
 
 Start state:
 
