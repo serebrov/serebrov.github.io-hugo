@@ -14,7 +14,7 @@ A collection of links to touch typing tutors and games.
 ## Online Typing Tutors
 
 *   [keybr.com](https://keybr.com/) - Typing practice, supports Qwerty, Dvorak, Colemak and Workman layouts
-*   [typing.com](https://typing.io/) - Typing practice, free
+*   [typing.com](https://typing.com/) - Typing practice, free
 *   [typing.io](https://typing.io/) - Typing Practice for Programmers
 *   [monkeytype.com](https://monkeytype.com/) - a minimalistic, customizable typing test, featuring many test modes, [open source](https://github.com/Miodec/monkey-type)
 *   [entertrained.app](https://entertrained.app/) - practice by typing books
