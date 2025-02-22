@@ -16,7 +16,7 @@ Then f(y) should be true for objects y of type S where S is a subtype of T.
 
 The basic idea - if you have an object of type `T` then you can also use objects of its subclasses instead of it.
 
-Or, in other words: the subclass should behave the same way as the base class. It can add some new features on top of the base class (that's the purpose of inheritance, right?), but it can not break expectations about the base class behavior.
+Or, in other words: the subclass should behave the same way as the base class. It can add some new features on top of the base class, but it can not break expectations about the base class behavior.
 
 <!-- more -->
 
@@ -24,15 +24,15 @@ The expectations about the base class can include:
 
 - input parameters for class methods
 - returned values of the class methods
-- exceptions are thrown by the class methods
-- how method calls change the object state
+- exceptions thrown by the class methods
+- how the method call changes the object state
 - other expectations about what the object does and how
 
 Some of these expectations can be enforced by the programming language, but some of them can only be expressed as the documentation.
 
-This way to follow the LSP it is not only important to follow the coding rules, but also to use common sense and do not use the inheritance to turn the class into something completely different.
+This way it is both important to follow the implementation requirements imposed by LSP as well as use common sense and avoid changing subclasses in a way that they don't work the same as base clases. The latter point may also helps deciding on inheritance vs composition (do I really inherit to create a new subtype of the existing type or do I just want to reuse the implementation?).
 
-Let's see what rules do we need to follow in the code.
+But let's review implementation requirements and see what rules do we need to follow in the code.
 
 # Methods Signature Requirements
 
@@ -119,14 +119,15 @@ class BadCatOwner extends Owner
     ...
 
 function doAction(Owner owner)
-  owner->feed(new Dog) # OK for Owner, he accepts any Animal, including the Dog
-                       # OK for GoodOwner, he accepts any LiveBeing, including the Dog
-                       # Problem for CatOwner, he doesn't expect the Dog
+  # OK for Owner, it accepts any Animal, including the Dog
+  # OK for GoodOwner, it accepts any LiveBeing, including the Dog
+  # Problem for CatOwner, it doesn't expect the Dog
+  owner->feed(new Dog)
 ```
 
 In practice, it may feel tempting to break this rule and define the class like `BadCatOwner` above.
 
-But, as we can see, the `BadCatOwner` breaks LSP and we can not use it in the same case where we can use the `Owner` object.
+But, as we can see in the `doAction` case, the `BadCatOwner` breaks LSP and we can not use it in the same case where we can use the `Owner` object.
 
 Note that although using the more generic type in the subclass is OK in terms of method signature, it may be problematic logically:
 
@@ -148,7 +149,7 @@ And this way, `GoodOwner` also can not just forward the execution to the parent 
 
 By the way, if the method doesn't use parent implementation, it may [indicate the LSP violation](http://stackoverflow.com/q/35070912/4612064) - potentially we can have a different behavior for this subtype than in the parent class.
 
-## Exceptions should be same or subtypes of the base method exceptions
+## Exceptions should be of the same type or subtypes of the base method exceptions
 
 No new exceptions should be thrown by methods of the subtype, except where those exceptions are themselves subtypes of exceptions thrown by the methods of the parent type.
 
@@ -248,8 +249,9 @@ class TheTime extends The24Hours
     return this.hour
 
 function doAction(The24Hours hours)
-  int result = hours->setHour(3); # OK for The24Hours
-                                  # Problem for TheTime, it returns float
+  # OK for The24Hours
+  # Problem for TheTime, it returns float
+  int result = hours->setHour(3)
 ```
 
 So again, due to `LSP` violation, we can not use the child class instead of the parent.
