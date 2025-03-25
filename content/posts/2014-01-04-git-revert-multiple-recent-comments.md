@@ -20,9 +20,30 @@ want to revert them.
 revision history like above, you can use it to try and see the effect of different
 commands.
 
-## git reset
+## Create new branch
 
-The first method is a simple way to throw away few recent commits.
+This is a safe and simple method that does not require history rewrite: checkout the last 'good' commit and create a new branch from it:
+
+```
+git checkout G3
+git checkout -b my-new-branch
+```
+
+A variation of this is to create a new branch and then cherry-pick commits you need to it:
+
+```
+git checkout master
+git checkout -b my-new-branch
+git cherry-pick G1
+git cherry-pick G2
+git cherry-pick G3
+```
+
+It is also possible to [cherry pick a range of commits](https://serebrov.github.io/html/2021-09-13-git-cherry-pick-a-range-of-commits.html) with `git cherry-pick G1^..G3`.
+
+## Use git reset
+
+A simple way to throw away a few recent commits is to use `git reset`.
 It re-writes the commit history, so only use it when your changes are not public yet (you can do this locally or on your private branch).
 
 The `git reset` command can be used to throw away recent commits (the `--hard` flag will also remove any local changes that are not commited yet):
@@ -48,7 +69,7 @@ G1 - G2 - G3 - B1 - B2 - B3
               \-------------- HEAD~3
 ```
 
-## git revert
+## Use git revert
 
 If your changes are public already (for example, merged to `master` or other public branch), then it is better to avoid history rewrites and use `git revert` to generate anti-commit for your changes.
 
