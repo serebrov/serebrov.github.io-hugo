@@ -19,6 +19,7 @@ A collection of links to touch typing tutors and games.
 *   [monkeytype.com](https://monkeytype.com/) - a minimalistic, customizable typing test, featuring many test modes, [open source](https://github.com/Miodec/monkey-type)
 *   [entertrained.app](https://entertrained.app/) - practice by typing books
 *   [typ.ing](https://typ.ing/about) - typing trainer by [zsa.io](https://www.zsa.io/)
+*   [TypingGym](https://www.typinggym.com/) - typing trainer with automatic level increase, article mode (long text), code mode
 *   [Programmer's typing practice](https://climech.github.io/typing-practice/) - no timers, no WPMs—just a never-ending stream of gibberish, [open source](https://github.com/climech/typing-practice)
 *   [speedtyper.dev](https://www.speedtyper.dev/) - Typing competitions for programmers, code snippets from open source projects in different languages, [open source](https://github.com/codicocodes/speedtyper.dev/tree/main)
 *   [typelit.io](https://www.typelit.io/) - practice typing by retyping entire novels
