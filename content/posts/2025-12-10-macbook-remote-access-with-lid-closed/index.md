@@ -12,7 +12,7 @@ The solution is to have MacBook in a ["clamshell mode"](https://www.google.com/s
 
 To emulate the display (which I don't have), it is possible to use the "hdmi dummy plug" or "hdmi headless adapters" like this [Fueran 4K HDR HDMI Dummy Plug](https://www.amazon.com/dp/B06XSZR7CG):
 
-![fueran hdmi dummy adapter](./2025-12-10-fueran_hdmi_dummy_adapter_600.jpg)
+![fueran hdmi dummy adapter](fueran_hdmi_dummy_adapter_600.jpg)
 
 <!-- more -->
 
