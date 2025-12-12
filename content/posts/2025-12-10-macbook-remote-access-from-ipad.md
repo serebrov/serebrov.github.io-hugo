@@ -1,12 +1,12 @@
 ---
-title: "Mackbook - Remote Access from iPad"
+title: "MacBook - Remote Access from iPad"
 date: 2025-12-10
 tags: [mac]
 type: note
 url: "/html/2025-12-10-macbook-remote-access-from-ipad.html"
 ---
 
-There are a few solutions to have remote access from iPad to Macbook:
+There are a few solutions to have remote access from iPad to MacBook:
 * [Chrome remote desktop](https://remotedesktop.google.com/?pli=1)
 * SSH + screen sharing app
 * [Teamviewer](https://www.teamviewer.com/)

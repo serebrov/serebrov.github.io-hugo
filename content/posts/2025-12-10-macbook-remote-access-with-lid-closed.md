@@ -1,16 +1,18 @@
 ---
-title: "Macbook - How to keep it on with lid closed, clamshell mode"
+title: "MacBook - How to keep it on with lid closed, clamshell mode"
 date: 2025-12-10
 tags: [mac]
 type: note
 url: "/html/2025-12-10-macbook-keep-on-with-lid-closed-clamshell-mode.html"
 ---
 
-When using [remote desktop to access Macbook](./2025-12-10-macbook-remote-access-from-ipad.html) it is inconvenient that Macbook needs to stay with the lid open. Othewise, if the lid is closed, it goes to sleep and makes it impossible to access it remotely.
+I am testing the [remote desktop to access MacBook](./2025-12-10-macbook-remote-access-from-ipad.html) and it is inconvenient that MacBook needs to stay with the lid open. Othewise, if the lid is closed, the laptop goes to sleep and makes it impossible to connect to it.
 
-To solve this we need to have Macbook in a ["clamshell mode"](https://www.google.com/search?q=macbook+clamshell+mode) if we connect an external display, mouse and the keyboard to the laptop.
+The solution is to have MacBook in a ["clamshell mode"](https://www.google.com/search?q=macbook+clamshell+mode) which is enabled when there is an external display, mouse and the keyboard to the laptop.
 
-To emulate the display, we can use the "hdmi dummy plug" or "hdmi headless adapters" like this [Fueran 4K HDR HDMI Dummy Plug](https://www.amazon.com/dp/B06XSZR7CG)
+To emulate the display (which I don't have), it is possible to use the "hdmi dummy plug" or "hdmi headless adapters" like this [Fueran 4K HDR HDMI Dummy Plug](https://www.amazon.com/dp/B06XSZR7CG):
+
+![fueran hdmi dummy adapter](./2025-12-10-fueran_hdmi_dummy_adapter_600.jpg)
 
 <!-- more -->
 
