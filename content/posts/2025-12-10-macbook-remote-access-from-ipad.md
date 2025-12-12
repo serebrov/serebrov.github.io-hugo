@@ -1,5 +1,5 @@
 ---
-title: "mac - how to keep it on with lid closed, clamshell mode"
+title: "Mackbook - Remote Access from iPad"
 date: 2025-12-10
 tags: [mac]
 type: note
