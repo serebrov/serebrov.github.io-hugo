@@ -26,7 +26,7 @@ Settings that may also be needed to support the clamshell mode:
 Maybe related:
 * System Settings -> Lock Screen
   * "Turn display off on power adapter when inactive" recommended to set to "Never"
-  * I have it 1 hour, seems to work, so maybe unrelated.
+  * I have it 1 hour, seems to work, so maybe this is not needed.
 
 Resources:
 * [Share your Mac resources when it’s in sleep](https://support.apple.com/guide/mac-help/share-your-mac-resources-when-its-in-sleep-mh27905/mac)
