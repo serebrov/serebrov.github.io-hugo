@@ -1,7 +1,7 @@
 ---
 title: "Voyager keyboard: unibody mount"
-date: 2025-12-10
-tags: [mac]
+date: 2025-12-12
+tags: [kbd]
 type: note
 url: "/html/2025-12-12-voyager-keyboard-unibody-mount.html"
 ---
