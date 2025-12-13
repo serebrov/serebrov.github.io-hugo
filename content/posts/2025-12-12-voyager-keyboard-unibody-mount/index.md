@@ -6,7 +6,7 @@ type: note
 url: "/html/2025-12-12-voyager-keyboard-unibody-mount.html"
 ---
 
-[Voyager](https://www.zsa.io/voyager) is a nice compact split keyboard and it has a variaty of mounting options thanks to the magnetic case and the extra magnetic mounting kit that ZSA also makes.
+[Voyager](https://www.zsa.io/voyager) is a nice compact split keyboard and it has a variaty of mounting options thanks to the magnetic case and the extra [magnetic mounting kit](https://www.zsa.io/voyager/tripod-mount) that ZSA also makes.
 
 I had tripod mounts for a while and I use them for tenting, although in some situations it may be more conveninet to turn the split into unibody and thinking about my options, I found a nice solution.
 
