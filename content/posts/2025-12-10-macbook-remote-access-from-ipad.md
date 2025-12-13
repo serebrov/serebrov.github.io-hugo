@@ -8,9 +8,12 @@ url: "/html/2025-12-10-macbook-remote-access-from-ipad.html"
 
 There are a few solutions to have remote access from iPad to MacBook:
 * [Chrome remote desktop](https://remotedesktop.google.com/?pli=1)
-* SSH + screen sharing app
 * [Teamviewer](https://www.teamviewer.com/)
 * [Jump desktop](https://jumpdesktop.com/)
+* SSH, Mac screen sharing app
+’ Some other options
+
+I’ll start with simples - Teamviewer and Jump Desktop.
 
 <!-- more -->
 
@@ -35,7 +38,8 @@ Some notes on teamviewer vs jump desktop
   - this is more natural in teamviewer where I can scroll remote screen with one finger
 - both have extra bar for the keyboard to add Shift, Control, CMD, Alt
   - note that for combinations like CMD+Shift+T we need to use this special bar (Shift on iPad keyboard would not be counted as a part of shortcut)
-- Teamviewer: I use Voyager (QMK keyboard), there is a problem with some keys that are on a layer
+- Teamviewer: there is a problem with passing some keys from the external keyboard (connected to iPad)
+  - I use Voyager (QMK keyboard), there is a problem with some keys that are on a layer
   - it looks like the layer key is interpreted as Alt, so, for example, instead of double qoutes I get “” and for single I get ‘’
   - there is not such problem in Jump Desktop
 - Teamviewer has an annoying issue with screen blinking and scaling for a split second
@@ -47,9 +51,9 @@ Overall it works, but less conveninent than Teamviewer or Jump Desktop.
 
 Setup:
 - Go to [https://remotedesktop.google.com/access](https://remotedesktop.google.com/access)
-  - Install on Mac, give all the permissions (accessibility, screen recording)
-  - On the "access" tab - allow access, set pin code
-  - Open the URL above on iPad, connect to Mac
+- Install on Mac, give all the permissions (accessibility, screen recording)
+- On the "access" tab - allow access, set pin code
+- Open the URL above on iPad, connect to Mac
 
 What worked:
 - Remote access works
