@@ -14,7 +14,7 @@ I had tripod mounts for a while and I use them for tenting, although in some sit
 
 The tripod mounts [that I use](https://www.amazon.com/dp/B08Z8KX287) look like this:
 
-![z flex tripod head](z-flex-tripod-head.png)
+![z flex tripod head](voyager-z-flex-tripod-head.jpg)
 
 I have two of these tripods as well as the the Voyager magnetic tripod mount. I removed the bottom part of one of the tripods (just unscrew the locking mechanism and take the bottom arm off) and replaced it with mountable part from the other tripod.
 
