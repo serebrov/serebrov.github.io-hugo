@@ -29,12 +29,17 @@ Some notes on teamviewer vs jump desktop
   - I use three fingers swipe left / right to switch desktops and three fingers swipe up to show all desktops
     - instead, I have to use mouse mode and the "hot" top right hot corner that is configured to show all desktops (same as 3 finger swipe up)
   - maybe because these gestures conflict with ipad gestures? I did not find a solution for this one
+- audio passthrough works in both, both create a virtual audio devices that is activated during the screensharing
 - jump desktop has some annoying slight vertical scroll
   - maybe because of that, I also have to scroll remote screen with two fingers (one finger scrolls the local screen, two fingers - remote)
   - this is more natural in teamviewer where I can scroll remote screen with one finger
 - both have extra bar for the keyboard to add Shift, Control, CMD, Alt
   - note that for combinations like CMD+Shift+T we need to use this special bar (Shift on iPad keyboard would not be counted as a part of shortcut)
- - audio passthrough works in both, both create a virtual audio devices that is activated during the screensharing
+- Teamviewer: I use Voyager (QMK keyboard), there is a problem with some keys that are on a layer
+  - it looks like the layer key is interpreted as Alt, so, for example, instead of double qoutes I get “” and for single I get ‘’
+  - there is not such problem in Jump Desktop
+- Teamviewer has an annoying issue with screen blinking and scaling for a split second
+  - not sure why, maybe it reconnects to the host or something
 
 # Chrome remote desktop
 
