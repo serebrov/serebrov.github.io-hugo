@@ -26,6 +26,9 @@ Here is how it looks:
 ![voyager unibody mount 2](voyager_unibody_mount_2.jpg)
 ![voyager unibody mount 3](voyager_unibody_mount_3.jpg)
 ![voyager unibody mount 4](voyager_unibody_mount_4.jpg)
+
+There are also adjusment screws on the bottom, so halves can be moved closer or further apart:
+
 ![voyager unibody mount 5](voyager_unibody_mount_5.jpg)
 ![voyager unibody mount 6](voyager_unibody_mount_6.jpg)
 
