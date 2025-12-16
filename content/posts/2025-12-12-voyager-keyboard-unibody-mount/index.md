@@ -6,9 +6,9 @@ type: note
 url: "/html/2025-12-12-voyager-keyboard-unibody-mount.html"
 ---
 
-[Voyager](https://www.zsa.io/voyager) is a nice compact split keyboard and it has a variaty of mounting options thanks to the magnetic case and the extra [magnetic mounting kit](https://www.zsa.io/voyager/tripod-mount) that ZSA also makes.
+[Voyager](https://www.zsa.io/voyager) is a nice compact split keyboard and it has a variety of mounting options thanks to the magnetic case and the extra [magnetic mounting kit](https://www.zsa.io/voyager/tripod-mount) that ZSA also makes.
 
-I had tripod mounts for a while and I use them for tenting, although in some situations it may be more conveninet to turn the split into unibody and thinking about my options, I found a nice solution.
+I had tripod mounts for a while and I use them for tenting, although in some situations it may be more convenient to turn the split into unibody and thinking about my options, I found a nice solution.
 
 <!-- more -->
 
@@ -16,9 +16,9 @@ The tripod mounts [that I use](https://www.amazon.com/dp/B08Z8KX287) look like t
 
 ![z flex tripod head](voyager-z-flex-tripod-head.jpg)
 
-I have two of these tripods as well as the the Voyager magnetic tripod mount. I removed the bottom part of one of the tripods (just unscrew the locking mechanism and take the bottom arm off) and replaced it with mountable part from the other tripod.
+I have two of these tripods as well as the Voyager magnetic tripod mount. I removed the bottom part of one of the tripods (just unscrew the locking mechanism and take the bottom arm off) and replaced it with mountable part from the other tripod.
 
-As a result, I can turn Voyager to unibody and also have an ability to rotate halves both vertically and horizontally, so both adjust tening and turn halfs at the convenient angle.
+As a result, I can turn Voyager to unibody and also have an ability to rotate halves both vertically and horizontally, so both adjust tenting and turn halves at the convenient angle.
 
 Here is how it looks:
 
@@ -27,9 +27,9 @@ Here is how it looks:
 ![voyager unibody mount 3](voyager_unibody_mount_3.jpg)
 ![voyager unibody mount 4](voyager_unibody_mount_4.jpg)
 
-There are also adjusment screws on the bottom, so halves can be moved closer or further apart:
+There are also adjustment screws on the bottom, so halves can be moved closer or further apart:
 
 ![voyager unibody mount 5](voyager_unibody_mount_5.jpg)
 ![voyager unibody mount 6](voyager_unibody_mount_6.jpg)
 
-If you wonder about the white dongle, it is [Handheld Scientific BT-600](http://handheldsci.com/kb), a adapter that turns wired keyboard into Bluetooth keyboard (besides the dongle, you also need a powerbank to power the setup).
+If you wonder about the white dongle, it is [Handheld Scientific BT-600](http://handheldsci.com/kb), a adapter that turns wired keyboard into bluetooth keyboard (besides the dongle, you also need a powerbank to power the setup).
