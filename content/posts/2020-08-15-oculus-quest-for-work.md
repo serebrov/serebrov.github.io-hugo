@@ -6,7 +6,7 @@ type: post
 url: "/html/2020-05-03-oculus-quest-for-work.html"
 ---
 
-After reading [this](https://www.reddit.com/r/OculusGo/comments/aq5q7q/shout_out_to_immersed_devs_thanks_to_them_i_can/), [this](https://www.reddit.com/r/OculusQuest/comments/ct1wx1/bigscreen_and_immersed_vr_are_oculus_secret/) and [this](https://www.reddit.com/r/OculusQuest/comments/c6ryyu/immersed_vr_has_forever_changed_my_workflow_the/) and [this](https://blog.immersed.team/working-in-vr-8-hrs-day-e8308b6791f0), I've got Oculus Quest willing to try it for work. I am a software developer and spend 8-10 hours per day before the laptop. My main machine at the moment is Mac Book Pro, I also own Thinkpad with Linux.
+After reading [this](https://www.reddit.com/r/OculusGo/comments/aq5q7q/shout_out_to_immersed_devs_thanks_to_them_i_can/), [this](https://www.reddit.com/r/OculusQuest/comments/ct1wx1/bigscreen_and_immersed_vr_are_oculus_secret/) and [this](https://www.reddit.com/r/OculusQuest/comments/c6ryyu/immersed_vr_has_forever_changed_my_workflow_the/) and [this](https://blog.immersed.team/working-in-vr-8-hrs-day-e8308b6791f0), I've got Oculus Quest wanting to try it for work. I am a software developer and spend 8-10 hours per day before the laptop. My main machine at the moment is Mac Book Pro, I also own Thinkpad with Linux.
 
 This way, in terms of software, [ImmersedVR](https://immersedvr.com/) seems to be the only contender and only compatible headsets are Oculus Go and Oculus Quest.
 I've got Quest as it has a higher resolution.
@@ -17,14 +17,14 @@ After reading all the posts above my expectations of the image quality were quit
 In (virtual) reality it appeared to be not that good. The text is crisp enough to read, but the overall image has some moving artifacts and general experience is somewhat close (I think) to what I've seen long ago on first 14-15 inch CRT monitors.
 The video in [this post](https://www.reddit.com/r/OculusQuest/comments/c6ryyu/immersed_vr_has_forever_changed_my_workflow_the/) is pretty accurate - you can see these moving artifacts (should I call it moire? or distortion?), especially on the edges of screens.
 I don't know if that is a resolution that is not high enough or a refresh rate not high enough, maybe both.
-There is eye strain too, after using it for 2-3 hours and taking the headset off, you can feel like your eyes begging to stay closed for a while to get some rest.
+There is eye strain too, after using it for 2-3 hours and taking the headset off, you can feel your eyes begging to stay closed for a while to get some rest.
 
-Anyway, this is a future of screens as I see and want it where you have a wearable (headset, glasses) that create a virtual screen or several screens of any size you want.
+Anyway, this is the future of screens as I see and want it where you have a wearable (headset, glasses) that create a virtual screen or several screens of any size you want.
 It is way more compact and easier than having a physical setup.
 I also like to move often from place to place, work outside, sit, or stay, so I rarely use a stationary workplace that I have at home with 27-inch monitor.
 Usually, I just take the laptop and sit on a coach with it. Having a VR screen is a big addition to the portable setup that you can take anywhere with you.
 
-Although the image quality is less than what I expected, it is not that bad, and I was able to work in VR for the most of the day, I am just saying that it is still not a perfect experience.
+Although the image quality is less than what I expected, it is not that bad, and I was able to work in VR for most of the day, I am just saying that it is still not a perfect experience.
 I would say it is definitely something that I can use right now, at least for the part of the day, and I am looking forward to higher resolution devices that would improve the quality of the image.
 
 Good parts:
@@ -65,6 +65,6 @@ What else would be cool to have:
 
 Besides work, it is an amazing gaming and entertainment platform. I like Beat Saber on PSVR a lot and immediately got a copy for Quest, others that look quite interesting are [FitXR](https://fitxr.com/) and [eleven table tennis](https://www.oculus.com/experiences/quest/1995434190525828/?locale=en_US), as well as many other awesome games and apps (don't forget [netflix](https://www.oculus.com/experiences/quest/2184912004923042/) on a big screen).
 
-Summarizing, I can say that I am satisfied with the overall experience, even so, it didn't match all of my expectations.
+Summarizing, I can say that I am satisfied with the overall experience, even though it didn't match all of my expectations.
 
 Also posted on [reddit](https://www.reddit.com/r/OculusQuest/comments/ia97gp/oculus_quest_for_work_first_impressions/).

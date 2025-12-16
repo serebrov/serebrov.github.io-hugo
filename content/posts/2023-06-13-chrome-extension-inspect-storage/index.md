@@ -7,8 +7,6 @@ url: "/html/2023-06-13-chrome-extension-inspect-storage.html"
 ---
 
 The extension storage is not displayed under the "Application" tab in Chrome DevTools, but
-it is possible to access the extension storage using a javascript console, here is how:
-
 it is possible to access it via the javascript console:
 
 * Open some web page, open Chrome DevTools

@@ -31,7 +31,7 @@ Discussion is here: https://github.com/nodejs/node/issues/40702.
 
 Possible solutions are:
 
-* Replace `127.0.0.1` with `localhost` on the client side
+* Replace `localhost` with `127.0.0.1` on the client side
 * Update your server applications to listen to both IPv4 (`127.0.0.1`) and IPv6 addresses (`::1`)
 * Downgrade to Node 16 or upgrade to Node 20 (one more change here to automatically fallback to IPv4, so it works again).
 

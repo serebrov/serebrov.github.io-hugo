@@ -22,7 +22,7 @@ CloudFront [distribution](https://docs.aws.amazon.com/AmazonCloudFront/latest/De
 
 The distribution can have one or more origins (these are our services - landing page, S3 app, wordpress, etc).
 
-And each origins has behaviors - rules defining how CloudFront will work for the specific request path:
+And each origin has behaviors - rules defining how CloudFront will work for the specific request path:
 - Allowed protocols (HTTP, HTTPS) and HTTP methods
 - Caching settings
 - Lambda@Edge functions to add custom logic to the request or response processing.
@@ -39,7 +39,7 @@ But it is also possible to merge different services under the same distribution 
 
 If we want to have a single domain name used for all services (frontend app, landing pages, wordpress blog, etc), we can achieve that with CloudFront by having multiple origins for each service and multiple behaviors to specify which request paths should be forwarded to these origins.
 
-The example setup for this post includes following origins:
+The example setup for this post includes the following origins:
 
 - `www.myapp.com` -> unbounce.com, landing pages
 - `www.myapp.com/app` -> single-page application, S3 bucket

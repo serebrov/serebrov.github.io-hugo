@@ -23,7 +23,7 @@ So the command fails to access the database.
 
 Solution
 --------------------------------------------
-Solution is to set the required environment variables before launching the command and this can be done with '/opt/elasticbeanstalk/support/envvars' script:
+The solution is to set the required environment variables before launching the command and this can be done with '/opt/elasticbeanstalk/support/envvars' script:
 
 ```bash
     0 3 * * * . /opt/elasticbeanstalk/support/envvars; /var/www/html/console/yiic mycommand

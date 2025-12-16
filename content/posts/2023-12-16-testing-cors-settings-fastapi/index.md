@@ -57,7 +57,7 @@ It works with `allow_credentials` line commented out:
 
 ![CORS test](./2023-12-cors_test.png)
 
-I am testing this on the StackOverflow [page](https://stackoverflow.com/questions/65635346/how-can-i-enable-cors-in-fastapi), so the request goes from "stackoverflow.com" and is CORS request.
+I am testing this on the StackOverflow [page](https://stackoverflow.com/questions/65635346/how-can-i-enable-cors-in-fastapi), so the request goes from "stackoverflow.com" and is a CORS request.
 
 If I comment out the `allow_origins=origins` line in the mini-app config, I get an error:
 

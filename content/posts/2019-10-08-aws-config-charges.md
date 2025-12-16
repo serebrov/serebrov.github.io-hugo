@@ -35,7 +35,7 @@ The thing I missed was at the very top: `You pay $0.003 per configuration item r
 It appears, that AWS Config was enabled and some automation in our account caused the large number of configuration items (changes to the configuration) to be recorded.
 The guide on how to get and query the collected data (it's on S3) can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/retrieve-aws-config-items-per-month/).
 
-The procedure is following:
+The procedure is the following:
 
 * Go to AWS Config settings, check the bucket name
 * Go to S3, find that bucket and go into it to get the path to the logs

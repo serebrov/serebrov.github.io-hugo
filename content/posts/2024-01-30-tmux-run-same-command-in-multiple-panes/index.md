@@ -59,7 +59,7 @@ tmux has-session -t $SESS 2>/dev/null
 
 if [ $? != 0 ]; then
   echo "Session $SESS does not exist, creating it..."
-  # Create a new session named "$SESS" and 
+  # Create a new session named "$SESS"
   tmux new-session -d -s $SESS
   # Send the command to the newly created pane
   tmux send-keys -t $SESS "$CMD" Enter

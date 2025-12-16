@@ -28,7 +28,7 @@ It is also possible to create several bundles using vue cli [multi-page mode](ht
 
 The js bundle is [solvable with custom chunks settings](https://stackoverflow.com/a/61089300/4612064), but it still leaves big css shared package (I didn't find the solution for that).
 
-The separate vue.config.js file had an advantage of building a completely independent bundle.
+The separate vue.config.js file has the advantage of building a completely independent bundle.
 
 The [alternative, check the comments](https://stackoverflow.com/a/50951316/4612064) is to have [separate configs and copy them over](https://gist.github.com/educkf/97e76da8d8c2b5dad17846a7d576e205), but this is less convenient than using the environment variable.
 

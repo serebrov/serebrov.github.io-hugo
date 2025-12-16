@@ -11,9 +11,9 @@ Mitosis Keyboard First Impressions
 I've received my [Mitosis](https://flashquark.com/product/gb-mitosis-wireless-split-ergonomic-keyboard-w-acrylic-case/) a few days ago and I like it a lot so far:
 - The size: perfect for the 36 keys layout I use
 - The shape: very comfortable, lowered outer columns feel great for pinkies
-  - I wished the inner column, for the index finger would not be shifted up as it is, it causes a bit of extension to use Y and T (not a big deal though)
-  - I also think the bottom thumb row is too far, so I am using the top row, having the bottom one without keycaps, so it doesn't get in a way
-- Wireless: probably this was one of main reasons to get it, it is really nice to freely move both halves without having to care about wires
+  - I wish the inner column, for the index finger would not be shifted up as it is, it causes a bit of extension to use Y and T (not a big deal though)
+  - I also think the bottom thumb row is too far, so I am using the top row, having the bottom one without keycaps, so it doesn't get in the way
+- Wireless: probably this was one of the main reasons to get it, it is really nice to freely move both halves without having to care about wires
   - An interesting decision here is to use the radio channel instead of bluetooth which gives much longer battery lifetime
   - It requires a receiver to be connected to the computer, but that is not a big deal, also it is cool to realize that your keyboard (QMK) is actually running inside that small board
 - Layout: not sure which layout was there initially, it was QWERTY while the [default layout in QMK configurator](https://config.qmk.fm/#/mitosis/LAYOUT) is Maltron (I think), anyway, I changed it to my layout, similar to [what I have on Moonlander](https://configure.ergodox-ez.com/moonlander/layouts/MJvlL/latest/0)
@@ -71,7 +71,7 @@ Maybe there is a better way to fix this?
 
 Here is how [the battery with foil looks](/mitosis/Mitosis.Battery.jpg).
 
-2. The are + / - markers on the pcb, but I had to put batteries upside down to make it work (so battery's plus is facing the plate marked with minus). Same on both sides. Am I interpreting these markings wrong? (it works, so not very important, I am just curious)
+2. There are + / - markers on the pcb, but I had to put batteries upside down to make it work (so battery's plus is facing the plate marked with minus). Same on both sides. Am I interpreting these markings wrong? (it works, so not very important, I am just curious)
 
 3. The green light doesn't seem to work in the indicator led. Is this a defective led or a soldering defect? How to "debug" it?
 The blue and red lights work separately and together, producing magenta, but the green doesn't work both on its own when combined with red or blue, it just stays off.

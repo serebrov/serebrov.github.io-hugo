@@ -16,7 +16,7 @@ Some cases when this might be needed:
 
 Preserving the history has an important effect: after we do the change, for example, extract a part of a bigger repository into a separate repository, we can continue moving changes between them (merge updates from the big repository to the small one and back).
 
-Below, I am assuming the first case (extract part of the big repository), other cases can be implemented with similar technique.
+Below, I am assuming the first case (extract part of the big repository), other cases can be implemented with a similar technique.
 
 ## Setup
 

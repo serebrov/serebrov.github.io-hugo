@@ -6,7 +6,7 @@ type: post
 url: "/html/2021-09-13-git-number-of-commits-by-author.html"
 ---
 
-The `shortlog -ns` will show number of commits by author:
+The `shortlog -ns` will show the number of commits by author:
 
 ```bash
 git shortlog -ns

@@ -13,7 +13,7 @@ A more convenient method is to use a "proxy" security group:
 
 * Create a new security group named `rds-{database name}-access`
 * Add this group to the RDS security group inbound rules, allowing access to the DB port (such as 5432 for PostgreSQL)
-* Add proxy group to the ElasticBeanstalk security groups
+* Add the proxy group to the ElasticBeanstalk security groups
 
 The convenience is that we do not have to edit security groups anymore, we just add the "proxy" group in environment settings.
 

@@ -33,7 +33,7 @@ Special branches are `master`, `staging` and `production`:
 ```
 
 Task branches should be short-living, each task should take a few hours or, at maximum, a few days to complete.
-So usually should be not necessary to merge updates back from master to the task branch.
+So usually it should not be necessary to merge updates back from master to the task branch.
 
 General git guidelines:
 
@@ -46,7 +46,7 @@ General git guidelines:
 
 ### 1) Select a Task to Work on
 
-I assume that you have the task description in some project management like [Redmine](http://www.redmine.org/) or [Trello](https://trello.com/).
+I assume that you have the task description in some project management system like [Redmine](http://www.redmine.org/) or [Trello](https://trello.com/).
 
 ### 2) Check If Working Copy Is Clean
 
@@ -244,7 +244,7 @@ Once testing on the `staging` branch is done, it can be merged to the `productio
 
 ### Work on the Branch Created by Someone Else
 
-Note: while it is possible for several developers to work on the same branch at the same time, but it is better to avoid this and create separate branch for each developer.
+Note: while it is possible for several developers to work on the same branch at the same time, it is better to avoid this and create separate branch for each developer.
 
 So this is for the case when someone created the branch, but did not finish the work and passed the task to you.
 This also can be useful to review other developer's work locally.

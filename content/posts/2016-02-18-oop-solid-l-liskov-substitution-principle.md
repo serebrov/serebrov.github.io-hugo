@@ -30,7 +30,7 @@ The expectations about the base class can include:
 
 Some of these expectations can be enforced by the programming language, but some of them can only be expressed as the documentation.
 
-This way it is both important to follow the implementation requirements imposed by LSP as well as use common sense and avoid changing subclasses in a way that they don't work the same as base classes. The latter point may also helps deciding on inheritance vs composition (do I really inherit to create a new subtype of the existing type or do I just want to reuse the implementation?).
+This way it is both important to follow the implementation requirements imposed by LSP as well as use common sense and avoid changing subclasses in a way that they don't work the same as base classes. The latter point may also help in deciding on inheritance vs composition (do I really inherit to create a new subtype of the existing type or do I just want to reuse the implementation?).
 
 But let's review implementation requirements and see what rules do we need to follow in the code.
 
@@ -38,7 +38,7 @@ But let's review implementation requirements and see what rules do we need to fo
 
 Signature requirements are requirements for input argument types and return type of the class methods.
 
-Let's imagine we have following class hierarchy:
+Let's imagine we have the following class hierarchy:
 
 ```text
    .------------.          .------------.          .-------------.
@@ -143,7 +143,7 @@ class GoodOwner extends Owner
 
 ```
 
-There is a problem here - the `GoodOnwer::feed` can not call the `being->eat()` method because `LiveBeing` doesn't have the `eat` method.
+There is a problem here - the `GoodOwner::feed` can not call the `being->eat()` method because `LiveBeing` doesn't have the `eat` method.
 
 And this way, `GoodOwner` also can not just forward the execution to the parent method with something like `parent::feed(being)`.
 

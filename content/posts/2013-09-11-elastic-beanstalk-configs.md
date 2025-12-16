@@ -7,11 +7,11 @@ url: "/html/2013-09-11-elastic-beanstalk-configs.html"
 ---
 
 By default Elastic Beanstalk console tool (eb) adds config files to .gitignore.
-If there are manual changes to EB configs it can be complex to manually sync these changes
+If there are manual changes to EB configs it can be difficult to sync these changes manually
 between different machines / different users.
 Of course it is possible to add config files to git repository but there are also several
 parameters in the main config which are absolute paths to local files.
-This way it makes configs not useful for other users (except for the case when different
+This makes configs unusable for other users (except for the case when different
 users have exactly the same files layout).
 Here is how this problem can be fixed:
 

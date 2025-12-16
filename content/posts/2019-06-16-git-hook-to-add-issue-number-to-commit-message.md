@@ -6,9 +6,9 @@ type: note
 url: "/html/2019-06-16-git-hook-to-add-issue-number-to-commit-message.html"
 ---
 
-When using project management system (Jira, Redmine, Github issues, etc) it is useful to add the issue number into commit message that makes it easier to understand which issue the commit belongs to and often allows the project management system to display related commits.
+When using project management system (Jira, Redmine, Github issues, etc) it is useful to add the issue number into the commit message that makes it easier to understand which issue the commit belongs to and often allows the project management system to display related commits.
 
-For same reasons, it is also useful to include the issue number into branch name, such as `123-branch-description` or `feature/PROJECT-123-branch-description`.
+For same reasons, it is also useful to include the issue number into the branch name, such as `123-branch-description` or `feature/PROJECT-123-branch-description`.
 
 <!-- more -->
 

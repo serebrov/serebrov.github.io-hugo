@@ -30,7 +30,7 @@ Some notes on teamviewer vs jump desktop
 - in both the mouse mode can be used to trigger hot corners and mac toolbar at the bottom
 - in both I cannot use three finger gestures for mac remotely
   - I use three fingers swipe left / right to switch desktops and three fingers swipe up to show all desktops
-    - instead, I have to use mouse mode and the "hot" top right hot corner that is configured to show all desktops (same as 3 finger swipe up)
+    - instead, I have to use mouse mode and the top right hot corner that is configured to show all desktops (same as 3 finger swipe up)
   - maybe because these gestures conflict with ipad gestures? I did not find a solution for this one
 - audio passthrough works in both, both create a virtual audio device that is activated during the screensharing
 - jump desktop has some annoying slight vertical scroll

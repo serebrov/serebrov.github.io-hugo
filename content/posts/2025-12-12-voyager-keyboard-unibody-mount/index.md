@@ -18,7 +18,7 @@ The tripod mounts [that I use](https://www.amazon.com/dp/B08Z8KX287) look like t
 
 I have two of these tripods as well as the Voyager magnetic tripod mount. I removed the bottom part of one of the tripods (just unscrew the locking mechanism and take the bottom arm off) and replaced it with mountable part from the other tripod.
 
-As a result, I can turn Voyager to unibody and also have an ability to rotate halves both vertically and horizontally, so both adjust tenting and turn halves at the convenient angle.
+As a result, I can turn Voyager to unibody and also have an ability to rotate halves both vertically and horizontally, so I can adjust the tenting and turn halves to a convenient angle.
 
 Here is how it looks:
 

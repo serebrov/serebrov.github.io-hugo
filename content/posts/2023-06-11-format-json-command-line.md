@@ -6,7 +6,7 @@ type: note
 url: "/html/2023-06-11-format-json-command-line.html"
 ---
 
-There are several tools that can be used to format the large json file.
+There are several tools that can be used to format a large JSON file.
 
 Prettier (if you have node.js and npx installed):
 

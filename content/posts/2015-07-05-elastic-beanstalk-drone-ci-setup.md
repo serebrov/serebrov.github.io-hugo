@@ -28,7 +28,7 @@ notify:
 ```
 
 As you can see the setup is really simple. I have a [custom docker image](https://github.com/serebrov/centos-python2.7-java) which installs all the application requirements.
-Then drone runs `pip install -r requirements.txt` to python app dependencies and runs `ci_test.sh` shell script to launch testing.
+Then drone runs `pip install -r requirements.txt` to install Python app dependencies and runs `ci_test.sh` shell script to launch testing.
 This script looks like this:
 
 ```bash

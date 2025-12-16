@@ -62,7 +62,7 @@ Or start flask shell with `flask shell`.
 
 [Celery](http://www.celeryproject.org/) is a distributed task queue.
 
-Our requirements are following:
+Our requirements are the following:
 
 - the celery application should be launched automatically when new version is deployed to Elastic Beanstalk
 - the celery application should be watched by supervisord and restarted in the case of failure

@@ -84,7 +84,7 @@ for voice in voices:
   display(speech_file_name, Audio(speech_file_path, autoplay=False))
 ```
 
-Here we use Google Colab's [`drive` library](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=u22w3BFiOveA) to save files to Google Drive and the [display](https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html).
+Here we use Google Colab's [`drive` library](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=u22w3BFiOveA) to save files to Google Drive and the [display](https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html) function.
 
 Resources:
 

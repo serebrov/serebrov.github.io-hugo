@@ -73,5 +73,5 @@ $ dive mailhog/mailhog
 ![dive screenshot](2023-06-19-dive-screenshot.png)
 
 The left side is the list of layers, the right side is the current content of the image.
-Switch from left to side with `Tab`.
+Switch from left to right with `Tab`.
 Moving down in the list of layers on the left updates the tree on the right, so we can see what exactly each layer added to the image.

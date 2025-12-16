@@ -80,7 +80,7 @@ In order to view the profile file created by `profiling-plugin`, you can use Chr
 - Go to Chrome, open DevTools, and go to the Performance tab (formerly Timeline).
 - Drag and drop generated `events.json` file into the profiler.
 
-To get even more about the build, also generate the bundle analyzer report with the Vue Cli [Webpack Bundle Analyzer](https://www.npmjs.com/package/vue-cli-plugin-webpack-bundle-analyzer) plugin. Add the following to the `vue.config.js`:
+To learn even more about the build, also generate the bundle analyzer report with the Vue Cli [Webpack Bundle Analyzer](https://www.npmjs.com/package/vue-cli-plugin-webpack-bundle-analyzer) plugin. Add the following to the `vue.config.js`:
 
 ```
 // vue.config.js

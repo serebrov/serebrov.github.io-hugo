@@ -7,7 +7,7 @@ url: "/html/2015-05-20-cloudwatch-setup.html"
 ---
 
 CloudWatch Logs is an AWS service to collect and monitor system and application logs.
-On the top level setup is this:
+At the top level, the setup is this:
 - install CloudWatch agent to collect logs data and send to CloudWatch Logs service
 - define log metric filters to extract useful data, like number of all errors or information about some specific events
 - create alarms for metrics to get notifications about logs
