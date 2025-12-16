@@ -307,7 +307,7 @@ So when the setup is done the good idea is to make an image of the running insta
 - Open `AMIs` page and wait until image is created, get the AMI ID (like ami-d2faa5b0)
 - Go to Elastic Beanstalk environment, Configuration, Instances and set `Custom AMI ID`
 
-Now if you instance is re-created all the settings will stay.
+Now if your instance is re-created all the settings will stay.
 The drawback is that you'll need to repeat the process once you add more users.
 Alternative is to use external RDS instance with MySql as Drone database.
 

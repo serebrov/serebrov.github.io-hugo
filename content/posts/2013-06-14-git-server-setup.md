@@ -1,5 +1,5 @@
 ---
-title: How to setup git server on ubuntu with push email notifications
+title: How to set up git server on ubuntu with push email notifications
 date: 2013-06-14
 tags: [git]
 type: note

@@ -51,7 +51,7 @@ The `git reset` command can be used to throw away recent commits (the `--hard` f
 ```
 Careful: `git reset` will rewrite history.
 
-Careful: `--hard` will remove not-commited local changes.
+Careful: `--hard` will remove not-committed local changes.
 ```
 
 ```bash
@@ -211,7 +211,7 @@ Here we first hard reset the state of the repository to some previous revision a
 The soft reset will keep file modifications, so it will bring old state back on top of the current state:
 
 ```
-Careful, reset --hard will remove non-commited changes
+Careful, reset --hard will remove non-committed changes
 ```
 
 ```bash

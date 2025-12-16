@@ -1,5 +1,5 @@
 ---
-title: Elastic Beanstalk - how to setup CloudWatch Logs
+title: Elastic Beanstalk - how to set up CloudWatch Logs
 date: 2015-05-20
 tags: [aws, eb, cw-logs]
 type: note
@@ -32,7 +32,7 @@ cloudwatchlogs-apache/
 Files need to be placed under `.ebextensions` folder. I recommend extracting an archive into `.ebextensions/cloudwatchlogs-apache`. You can also put an archive file itself, but it will be not convenient to view/edit configs then.
 
 First two files ([cwl-setup.config, click to preview](/cloudwatchlogs-apache/cwl-setup.config) and [eb-logs.config, click to preview](/cloudwatchlogs-apache/eb-logs.config)) are generic and can be used as is.
-These files will setup CloudWatch Logs agent on the instance and configure Elastic Beanstalk logs publication to S3.
+These files will set up CloudWatch Logs agent on the instance and configure Elastic Beanstalk logs publication to S3.
 
 Note: you also need to enable the access for Elastic Beanstalk instances to Cloudwatch Logs: add the appropriate permission for the `aws-elasticbeanstalk-ec2-role` in IAM settings.
 
@@ -69,7 +69,7 @@ Mappings:
 Here we see some definitions like log file path (`LogFile`), log timestamp format (`TimestampFormat`) and filter patterns (`Http4xxMetricfilter`, `HttpNon4xxMetricFilter`, ...).
 These definitions work as constants defined at the top of the template and are referred from other sections of the file.
 
-Filter patterns will be used to setup metric filters for the access log.
+Filter patterns will be used to set up metric filters for the access log.
 Here we have patterns which will find all requests with 4XX response code, all requests with non 4XX code, all 5XX responses and all non 5XX responses.
 
 The `TimestampFormat` setting is used by CloudWatch Logs agent to get timestamps for log records, so it is important to verify that format is set correctly.
@@ -170,7 +170,7 @@ content : |
 
 You can find more information about the CloudWatch agent configuration [here](http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/AgentReference.html).
 
-Note: it is not always convenient to have one stream per instance, [see the follow up note on how to setup on stream for all instances](/html/2015-06-17-cloudwatch-logs-single-stream.html).
+Note: it is not always convenient to have one stream per instance, [see the follow up note on how to set up one stream for all instances](/html/2015-06-17-cloudwatch-logs-single-stream.html).
 
 Next four resources are metric filters. These filters will extract and count messages with specific status codes from the Apache access log.
 
@@ -402,7 +402,7 @@ Resources :
 ```
 
 Note that metrics and alarms are optional and log data will be sent to CloudWatch Logs even if there are no metrics/alarms.
-But in this case, it will be necessary to review logs manually and setup metrics and alarms later if needed.
+But in this case, it will be necessary to review logs manually and set up metrics and alarms later if needed.
 
 ## Links
 

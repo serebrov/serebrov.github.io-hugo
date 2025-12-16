@@ -26,7 +26,7 @@ You also need to install [Docker Engine](https://docs.docker.com/engine/installa
 
 ## Docker Machine - setup Docker remotely
 
-Next step is to setup the Docker on the server, this is done with `docker-machine create` command:
+Next step is to set up the Docker on the server, this is done with `docker-machine create` command:
 
 ```bash
 SSH_HOST=111.222.333.44
@@ -110,7 +110,7 @@ VOLUME /var/www/html/files
 ```
 
 This container is based on the official [php image](https://hub.docker.com/\_/php/).
-To make the php `mail` function work, I also setup `msmtp` and configure php to use it.
+To make the php `mail` function work, I also set up `msmtp` and configure php to use it.
 The example of the msmtp configuration file is [here](/scaleway-docker/msmtprc).
 
 On Scaleway by default SMTP ports are disabled. To make emails work, it is necessary to configure the security group (switch "Block SMTP" from On to Off). After changing the security group, server should be rebooted (stop / run via Archive option or Hard reboot).
@@ -149,7 +149,7 @@ Ruby application is running under apache with mod passenger.
 
 ## The web deploy project
 
-The `web-deploy` project is a glue to build and start the containers for all web projects, link them to mysql if necessary and setup the HAProxy to forward requests to each sub-project.
+The `web-deploy` project is a glue to build and start the containers for all web projects, link them to mysql if necessary and set up the HAProxy to forward requests to each sub-project.
 
 ```text
 in ~/web $
