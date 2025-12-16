@@ -123,7 +123,7 @@ git diff master...branch
 +changes from F
 ```
 
-### Diff, only new commits on `master` (log with two dots and `-p` or diff with tree dots):
+### Diff, only new commits on `master` (log with two dots and `-p` or diff with three dots):
 
 ```bash
 git log -p branch..master
@@ -149,7 +149,7 @@ The [definition](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#_co
 - Double Dot - range of commits that are reachable from one commit but aren’t reachable from another (in other words, new commits on branch that are not present on master)
 - Triple-dot - all the commits that are reachable by either of two references but not by both of them (changes on both branches, but not common changes before that).
 
-And `git log` does exactly that - new commits on the branch with two dots and all new commits on both branches with tree dots.
+And `git log` does exactly that - new commits on the branch with two dots and all new commits on both branches with three dots.
 
 While `git diff` works differently, here is a summary from the man page:
 
@@ -175,7 +175,7 @@ It is more consistent and easier to remember - less dots (two) - less changes (o
 
 ## Diff staged changes
 
-Show staged changes - added to index, but not commited yet:
+Show staged changes - added to index, but not committed yet:
 
 ```bash
 git diff --cached

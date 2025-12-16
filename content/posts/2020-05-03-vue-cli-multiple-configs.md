@@ -26,7 +26,7 @@ Where `npm run build` is defined in `package.json` as `vue-cli-service build`.
 
 It is also possible to create several bundles using vue cli [multi-page mode](https://cli.vuejs.org/config/#pages), but in this case we will have big common js and css "vendors" package.
 
-The js bundle is [solvable with custom chanks settings](https://stackoverflow.com/a/61089300/4612064), but it still leaves big css shared package (I didn't find the solution for that).
+The js bundle is [solvable with custom chunks settings](https://stackoverflow.com/a/61089300/4612064), but it still leaves big css shared package (I didn't find the solution for that).
 
 The separate vue.config.js file had an advantage of building a completely independent bundle.
 

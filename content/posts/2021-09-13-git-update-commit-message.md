@@ -11,7 +11,7 @@ url: "/html/2021-09-13-git-update-commit-message.html"
 To change the last commit message, use `commit` with `--amend` flag:
 
 ```
-Careful: `commit --amend` will rewirte history,
+Careful: `commit --amend` will rewrite history,
 do not use on public branches.
 ```
 

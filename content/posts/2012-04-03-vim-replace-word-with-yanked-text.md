@@ -17,7 +17,7 @@ A possible way to do that in `vim` is:
 
 What happens next might be unexpected in this scenario: when we pasted over the `old_name`, it was deleted and put into the default Vim register instead of `new_name`, so next time we use `p`, it will paste the `old_name` (tldr: the `xnoremap p pgvy` mapping helps fix this).
 
-This behavior is nice when we actually deleted something, for example, if we did `dw` to delete `old_name`, we expect to be able to paste it with `p`, but this is less expected in the case the deletion was implicit, as in the case of the pasting over slection.
+This behavior is nice when we actually deleted something, for example, if we did `dw` to delete `old_name`, we expect to be able to paste it with `p`, but this is less expected in the case the deletion was implicit, as in the case of the pasting over selection.
 
 <!-- more -->
 
@@ -43,7 +43,7 @@ The solution that works quite well for me is the following mapping
 xnoremap p pgvy
 ```
 
-As mentioned above, the default Vim behavior is counter-intuitive when we paste over the selection: most of the time we do not need the text we pasted over (so do not want it to get into the default `""` register), but the same behavior is useful when we explicitely delete something (`dw` a word and the `p`aste it somewhere else).
+As mentioned above, the default Vim behavior is counter-intuitive when we paste over the selection: most of the time we do not need the text we pasted over (so do not want it to get into the default `""` register), but the same behavior is useful when we explicitly delete something (`dw` a word and the `p`aste it somewhere else).
 
 The mapping above only redefines the first case:
 
@@ -53,9 +53,9 @@ The mapping above only redefines the first case:
 
 With this mapping, we can still use Vim's standard behavior if needed by using `gp` instead of `p` (`gp` is almost the same as p, with cursor left after the pasted text instead of the last char of it).
 
-Another solution that seems simple is to have a `xnoremap p "0p` that would always use the `"0p` register when pasting in visual mode (in the example above, we saw that `new_name` stays in `"0p` during the whole process). But there is a negative side-effect: when we delete something explicitely, it gets into `""`, but not into `"0p`, so we can not then `p`aste it in visual mode. For example, select and copy `irrelevant_name` with `yiw`, delete `new_name` with `dw`, select `old_name` and paste with `yiwp` - the `irrelevant_name` will be pasted (whie `new_name` is expected).
+Another solution that seems simple is to have a `xnoremap p "0p` that would always use the `"0p` register when pasting in visual mode (in the example above, we saw that `new_name` stays in `"0p` during the whole process). But there is a negative side-effect: when we delete something explicitly, it gets into `""`, but not into `"0p`, so we can not then `p`aste it in visual mode. For example, select and copy `irrelevant_name` with `yiw`, delete `new_name` with `dw`, select `old_name` and paste with `yiwp` - the `irrelevant_name` will be pasted (while `new_name` is expected).
 
-One more solution is to use named registeres:
+One more solution is to use named registered:
 * Yank the `new_name` into a specific register, for example, the `a` register: `"ayiw`
 * Move the cursor to the `old_name`, select it with `viw`
 * Paste the contents of the `a` register over the selected text: `"ap`

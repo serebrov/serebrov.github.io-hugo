@@ -7,7 +7,7 @@ url: "/html/2012-04-24-git-fugitive-to-resolve-conflicts.html"
 ---
 
 
-To use fugitive as a mergetool you can run the following commands:
+To use fugitive as a merge tool you can run the following commands:
 
 ```bash
     git config --global mergetool.fugitive.cmd 'vim -f -c "Gdiff" "$MERGED"'

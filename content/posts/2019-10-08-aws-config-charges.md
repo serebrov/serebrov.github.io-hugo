@@ -33,7 +33,7 @@ Only after reading through the examples, I found that they also use some "config
 The thing I missed was at the very top: `You pay $0.003 per configuration item recorded in your AWS account per AWS Region.` (I jumped over this part initially right into the rules pricing table).
 
 It appears, that AWS Config was enabled and some automation in our account caused the large number of configuration items (changes to the configuration) to be recorded.
-The guide on how to get and query the collected data (its on S3) can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/retrieve-aws-config-items-per-month/).
+The guide on how to get and query the collected data (it's on S3) can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/retrieve-aws-config-items-per-month/).
 
 The procedure is following:
 

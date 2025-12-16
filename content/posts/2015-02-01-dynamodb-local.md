@@ -25,7 +25,7 @@ So different clients can use different databases.
 There is also an `-inMemory` parameter to keep data in memory:
 
 ```bash
-    $ java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar - inMemory -sharedDb
+    $ java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -inMemory -sharedDb
 ```
 
 ### How to load a test data and dump/restore the data

@@ -16,7 +16,7 @@ I've received my [Mitosis](https://flashquark.com/product/gb-mitosis-wireless-sp
 - Wireless: probably this was one of main reasons to get it, it is really nice to freely move both halves without having to care about wires
   - An interesting decision here is to use the radio channel instead of bluetooth which gives much longer battery lifetime
   - It requires a receiver to be connected to the computer, but that is not a big deal, also it is cool to realize that your keyboard (QMK) is actually running inside that small board
-- Layout: not sure which layout was there initially, it was QWERTY while the [default layout in QMK configuratior](https://config.qmk.fm/#/mitosis/LAYOUT) is Maltron (I think), anyway, I changed it to my layout, similar to [what I have on Moonlander](https://configure.ergodox-ez.com/moonlander/layouts/MJvlL/latest/0)
+- Layout: not sure which layout was there initially, it was QWERTY while the [default layout in QMK configurator](https://config.qmk.fm/#/mitosis/LAYOUT) is Maltron (I think), anyway, I changed it to my layout, similar to [what I have on Moonlander](https://configure.ergodox-ez.com/moonlander/layouts/MJvlL/latest/0)
 - Open source: here is the [announcement post](https://www.reddit.com/r/MechanicalKeyboards/comments/66588f/wireless_split_qmk_mitosis/), [hardware](https://github.com/reversebias/mitosis-hardware), [receiver firmware](https://github.com/reversebias/mitosis) and [keyboard firmware, QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis)
 
 How it [looks](/mitosis/Mitosis.jpg):
@@ -46,13 +46,13 @@ If it doesn't work:
   - There are `+` and `-` markings although I had to put my batteries upside down (`+` battery side facing `-` marking), not sure if markings are misplaced or I am interpreting them incorrectly
 
 Flashing:
-- Go to the [QMK configuratior](https://config.qmk.fm/#/mitosis/LAYOUT), change the layout as you like
+- Go to the [QMK configurator](https://config.qmk.fm/#/mitosis/LAYOUT), change the layout as you like
 - Download json keymap (at least, for the backup, it can be loaded back later)
 - Compile and download the firmware (there are buttons in the configurator) and then flash it with the [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
 - Press the button with `R` near it on the receiver to reset it and go to the flashing mode
 
 Alternatively, clone qmk and flash from the command line.
-Setup guide is [here](https://docs.qmk.fm/#/newbs_getting_started), after everything is set up, new firmware can be compiled and flushed with `qmk flash -kb mitosis -km mitosis_mini` (where `mitosis_mini` is the custom keymap name, there are also several [alternative keymaps in the QMK source](https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis)).
+Setup guide is [here](https://docs.qmk.fm/#/newbs_getting_started), after everything is set up, new firmware can be compiled and flashed with `qmk flash -kb mitosis -km mitosis_mini` (where `mitosis_mini` is the custom keymap name, there are also several [alternative keymaps in the QMK source](https://github.com/qmk/qmk_firmware/tree/master/keyboards/mitosis)).
 
 The keymap itself, can remain in `json` format, here is [what I have so far](https://github.com/serebrov/qmk_firmware/tree/custom/keyboards/mitosis/keymaps/mitosis_mini):
 - config.h - defines to auto shift timeout and enables tapping force hold
@@ -66,7 +66,7 @@ I still have a few questions, maybe someone could answer these for me:
 
 1. The battery in the right side didn't hold in the right half, I put aluminum foil under it to keep it in place.
 
-Seems to work good now, but is it safe to do and to go like this in the long term?
+Seems to work well now, but is it safe to do and to go like this in the long term?
 Maybe there is a better way to fix this?
 
 Here is how [the battery with foil looks](/mitosis/Mitosis.Battery.jpg).

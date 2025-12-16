@@ -7,7 +7,7 @@ url: "/html/2019-02-16-manage-npm-packages-on-github.html"
 ---
 
 Sometimes it is simpler to keep the package on github, for example, if you have a fork of a published package with some private changes.
-So you can avoid cluttering npm registry with similar packages, creating confusing for other people.
+So you can avoid cluttering npm registry with similar packages, creating confusion for other people.
 
 NPM [supports](https://docs.npmjs.com/cli/install) installing dependencies from github, but it is also good to have versioning for your package so you can use it exactly as other packages, develop it independently and upgrade the dependency for the main project in a controlled way.
 

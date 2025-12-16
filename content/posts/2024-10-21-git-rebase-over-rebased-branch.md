@@ -9,7 +9,7 @@ url: "/html/2024-10-21-git-rebase-over-rebased-branch.html"
 It is often useful to split a large change into several smaller branches and create smaller PRs which are easier to understand and review.
 This approach is also called "stacked branches" or "stacked pull requests".
 
-The problem with this approach is that a modification of the eariler branch will require rebasing all branches created from it.
+The problem with this approach is that a modification of the earlier branch will require rebasing all branches created from it.
 
 <!-- more -->
 
@@ -108,7 +108,7 @@ git push --force-with-lease B A # we can list all updated branches here
 
 ## Method 2: Rebase branches one-by-one
 
-This is older solution, before `--update-refs` was available.
+This is an older solution, before `--update-refs` was available.
 
 We use `git rebase --onto` to rebase previous branches. It works like this:
 

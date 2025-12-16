@@ -20,7 +20,7 @@ For example:
 
 CloudFront [distribution](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-overview.html) is an entry point which we assign a root domain name (www.myapp.com).
 
-The distribution can have one or more origins (these are the our services - landing page, S3 app, wordpress, etc).
+The distribution can have one or more origins (these are our services - landing page, S3 app, wordpress, etc).
 
 And each origins has behaviors - rules defining how CloudFront will work for the specific request path:
 - Allowed protocols (HTTP, HTTPS) and HTTP methods
@@ -56,7 +56,7 @@ And behaviors for our distribution will route requests to different origins base
 The `app*` behavior serves the single-page application from the S3 origin.
 The app is accessible from the sub-path (`myapp.com/app`) and should be placed in the sub-folder on S3 (the sub-path is preserved in the request to origin).
 
-In the case of single page web application, there is a single entry point, usually `index.html` that is loaded on first request and further navigation accross app pages is handled by application code in browser.
+In the case of single page web application, there is a single entry point, usually `index.html` that is loaded on first request and further navigation across app pages is handled by application code in browser.
 
 To implement this logic in `CloudFront`, we use Lambda@Edge functions attached to origin request and response events:
 
@@ -123,7 +123,7 @@ In a single-origin setup (no other services, and the distribution only used for 
 - Set default object for distribution to `index.html`
 - Add 404 and 403 error handlers for distribution and reply 200 OK and with `index.html` (so all requests are sent to the single page app even if there are no real files on S3)
 
-Unfortunately, these settings are on the distribution level, but in multi-origin setup we would need them for behaviors represeting specific request paths.
+Unfortunately, these settings are on the distribution level, but in multi-origin setup we would need them for behaviors representing specific request paths.
 For example, we need to redirect requests to `index.html` for `www.myapp.com/app`, but not for `www.myapp.com/blog`.
 
 In a multi-origin setup this logic is handled by Lambda@Edge functions: [CloudFrontSubdirectoryIndex](#lambda-code-cloudfrontsubdirectoryindex) and [CloudFrontDefaultIndexForOrigin](#lambda-code-cloudfrontdefaultindexfororigin)
@@ -165,7 +165,7 @@ The (standard) Elastic Beanstalk setup for php is a set of configurations and sc
 
 Note: along with the application code it is useful to also deploy `.git` folder (don't add it to `.ebignore`), so `git status` on the server inside the `/var/www/html` will show if there are any modifications done directly on the server by wordpress or plugins.
 
-Wordpress plugins often modify local files, so it is useful to check the behavior periodically (especially after installing some plugins or doing configuration changes) to see if there is something that needs to be saved to repostiory.
+Wordpress plugins often modify local files, so it is useful to check the behavior periodically (especially after installing some plugins or doing configuration changes) to see if there is something that needs to be saved to repository.
 This is useful to check if there are any local changes to the files after changing wordpress settings (if there are changes, we need to copy them back to local machine, commit to git and redeploy).
 
 # Unbounce Setup
@@ -418,8 +418,8 @@ exports.handler = (event, context, callback) => {
 
 # Lambda Code: CloudFrontRedirectApp
 
-This function can be useful to transfer the application from single-origin setup to multi-rigin.
-In this case, the `app.myapp.com` requests should be forwared to `www.myapp.com/app`.
+This function can be useful to transfer the application from single-origin setup to multi-origin.
+In this case, the `app.myapp.com` requests should be forwarded to `www.myapp.com/app`.
 
 Note: in the next section there is another solution for the same problem, based on S3 static website hosting feature.
 

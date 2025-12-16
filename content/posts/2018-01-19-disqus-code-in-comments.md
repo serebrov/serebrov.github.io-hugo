@@ -11,7 +11,7 @@ To do that, wrap the code into `<pre><code>` tags (see the example comment to th
 
 <!-- more -->
 
-I didn't know about this feature and, acutally, I think this is an UI flaw.
+I didn't know about this feature and, actually, I think this is an UI flaw.
 
 It would be great to see the `formatting help` link or popup when you are editing the comment (and also the `preview` feature would be really nice to have).
 

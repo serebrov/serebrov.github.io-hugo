@@ -8,7 +8,7 @@ url: "/html/2013-12-02-node-core-module-source.html"
 
 It is possible to ask node to show its core module source.
 <!-- more -->
-For example, we want to check the source of the readFileSunc() method:
+For example, we want to check the source of the readFileSync() method:
 
     $ node
     > fs = require('fs');

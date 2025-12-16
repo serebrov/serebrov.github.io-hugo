@@ -46,10 +46,10 @@ It is also possible to [cherry pick a range of commits](https://serebrov.github.
 A simple way to throw away a few recent commits is to use `git reset`.
 It re-writes the commit history, so only use it when your changes are not public yet (you can do this locally or on your private branch).
 
-The `git reset` command can be used to throw away recent commits (the `--hard` flag will also remove any local changes that are not commited yet):
+The `git reset` command can be used to throw away recent commits (the `--hard` flag will also remove any local changes that are not committed yet):
 
 ```
-Careful: `git reset` will rewirte history.
+Careful: `git reset` will rewrite history.
 
 Careful: `--hard` will remove not-commited local changes.
 ```
@@ -170,7 +170,7 @@ Now the history should look like this:
 G1 - G2 - G3 - G4 - G5 - B1
 ```
 
-And we can remove the last commit with `git reset --hard HEAD~1` (again, careful, it will remove any local uncommited changes and will rewrite history, do not use on public branches).
+And we can remove the last commit with `git reset --hard HEAD~1` (again, careful, it will remove any local uncommitted changes and will rewrite history, do not use on public branches).
 
 ## Rollback to the specific revision
 

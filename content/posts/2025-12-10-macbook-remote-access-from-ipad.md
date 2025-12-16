@@ -11,9 +11,9 @@ There are a few solutions to have remote access from iPad to MacBook:
 * [Teamviewer](https://www.teamviewer.com/)
 * [Jump desktop](https://jumpdesktop.com/)
 * SSH, Mac screen sharing app
-’ Some other options
+* Some other options
 
-I’ll start with simples - Teamviewer and Jump Desktop.
+I'll start with the simplest - Teamviewer and Jump Desktop.
 
 <!-- more -->
 
@@ -28,11 +28,11 @@ Some notes on teamviewer vs jump desktop
 - jump desktop has several input modes: standard, locked screen, pen, trackpad, direct touch (I ended up mostly using the trackpad mode)
   - teamviewer has two modes: touch and mouse, the touch mode works well and feels more intuitive than any of the jump desktop modes
 - in both the mouse mode can be used to trigger hot corners and mac toolbar at the bottom
-- in both I cannot use three finger gestures fot mac remotely
+- in both I cannot use three finger gestures for mac remotely
   - I use three fingers swipe left / right to switch desktops and three fingers swipe up to show all desktops
     - instead, I have to use mouse mode and the "hot" top right hot corner that is configured to show all desktops (same as 3 finger swipe up)
   - maybe because these gestures conflict with ipad gestures? I did not find a solution for this one
-- audio passthrough works in both, both create a virtual audio devices that is activated during the screensharing
+- audio passthrough works in both, both create a virtual audio device that is activated during the screensharing
 - jump desktop has some annoying slight vertical scroll
   - maybe because of that, I also have to scroll remote screen with two fingers (one finger scrolls the local screen, two fingers - remote)
   - this is more natural in teamviewer where I can scroll remote screen with one finger
@@ -40,14 +40,14 @@ Some notes on teamviewer vs jump desktop
   - note that for combinations like CMD+Shift+T we need to use this special bar (Shift on iPad keyboard would not be counted as a part of shortcut)
 - Teamviewer: there is a problem with passing some keys from the external keyboard (connected to iPad)
   - I use Voyager (QMK keyboard), there is a problem with some keys that are on a layer
-  - it looks like the layer key is interpreted as Alt, so, for example, instead of double qoutes I get “” and for single I get ‘’
-  - there is not such problem in Jump Desktop
+  - it looks like the layer key is interpreted as Alt, so, for example, instead of double quotes I get “” and for single I get ‘’
+  - there is no such problem in Jump Desktop
 - Teamviewer has an annoying issue with screen blinking and scaling for a split second
   - not sure why, maybe it reconnects to the host or something
 
 # Chrome remote desktop
 
-Overall it works, but less conveninent than Teamviewer or Jump Desktop.
+Overall it works, but less convenient than Teamviewer or Jump Desktop.
 
 Setup:
 - Go to [https://remotedesktop.google.com/access](https://remotedesktop.google.com/access)
@@ -64,10 +64,10 @@ What worked:
   - Power connected to the hub too, iPad is charging from it
 
 What did not work:
-- Auido
+- Audio
   - not sure why, it seems that it should be working
   - maybe there is some setting or it picks up wrong output (maybe blackhole?)
-- Three finger touchpad gestures (same as in Teamveiwer and Jump Desktop)
+- Three finger touchpad gestures (same as in Teamviewer and Jump Desktop)
   - I also tried to physically connect the trackpad to iPad, gestures operate on iPad, not on mac
 
 Related links:
@@ -81,7 +81,7 @@ I did not try it, but [NoMachine for iOS](https://www.nomachine.com/getting-star
 
 # VNC
 
-I also did not try this, but theoretcically, if there is a good VNC client for iOS, it could be used as a remote access solution to connect to the VNC server running on Mac.
+I also did not try this, but theoretically, if there is a good VNC client for iOS, it could be used as a remote access solution to connect to the VNC server running on Mac.
 
 # SSH, screen share app
 

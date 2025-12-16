@@ -9,7 +9,7 @@ url: "/html/2020-05-03-oculus-quest-for-work.html"
 After reading [this](https://www.reddit.com/r/OculusGo/comments/aq5q7q/shout_out_to_immersed_devs_thanks_to_them_i_can/), [this](https://www.reddit.com/r/OculusQuest/comments/ct1wx1/bigscreen_and_immersed_vr_are_oculus_secret/) and [this](https://www.reddit.com/r/OculusQuest/comments/c6ryyu/immersed_vr_has_forever_changed_my_workflow_the/) and [this](https://blog.immersed.team/working-in-vr-8-hrs-day-e8308b6791f0), I've got Oculus Quest willing to try it for work. I am a software developer and spend 8-10 hours per day before the laptop. My main machine at the moment is Mac Book Pro, I also own Thinkpad with Linux.
 
 This way, in terms of software, [ImmersedVR](https://immersedvr.com/) seems to be the only contender and only compatible headsets are Oculus Go and Oculus Quest.
-I've go Quest as it has a higher resolution.
+I've got Quest as it has a higher resolution.
 
 <!-- more -->
 
@@ -47,7 +47,7 @@ Some specific notes about working in Quest:
 - Headset weight, at least for me, this is not a big concern, I was worried it would be too heavy, but in fact, I was able to have the headset on for quite a long time without any problem.
 
 And notes about ImmersedVR:
-- It looks better in 1440x900 resolution (on Mac: "scaled" display mode, "lager text" option).
+- It looks better in 1440x900 resolution (on Mac: "scaled" display mode, "larger text" option).
 - Different virtual environments are good, although I ended up using "void" where everything is just dark around you.
 - Immersed settings can be invoked with stick click, this is also useful to check the headset battery level, there's an indicator at the bottom bar.
 - The laptop screen sometimes goes dark after exiting immersed VR, increase/decrease brightness to fix it (fn + F1/F2 on Mac).
@@ -65,6 +65,6 @@ What else would be cool to have:
 
 Besides work, it is an amazing gaming and entertainment platform. I like Beat Saber on PSVR a lot and immediately got a copy for Quest, others that look quite interesting are [FitXR](https://fitxr.com/) and [eleven table tennis](https://www.oculus.com/experiences/quest/1995434190525828/?locale=en_US), as well as many other awesome games and apps (don't forget [netflix](https://www.oculus.com/experiences/quest/2184912004923042/) on a big screen).
 
-Summarizing, I can say that I satisfied with the overall experience, even so, it didn't match all of my expectations.
+Summarizing, I can say that I am satisfied with the overall experience, even so, it didn't match all of my expectations.
 
 Also posted on [reddit](https://www.reddit.com/r/OculusQuest/comments/ia97gp/oculus_quest_for_work_first_impressions/).

@@ -32,4 +32,4 @@ There are also adjustment screws on the bottom, so halves can be moved closer or
 ![voyager unibody mount 5](voyager_unibody_mount_5.jpg)
 ![voyager unibody mount 6](voyager_unibody_mount_6.jpg)
 
-If you wonder about the white dongle, it is [Handheld Scientific BT-600](http://handheldsci.com/kb), a adapter that turns wired keyboard into bluetooth keyboard (besides the dongle, you also need a powerbank to power the setup).
+If you wonder about the white dongle, it is [Handheld Scientific BT-600](http://handheldsci.com/kb), an adapter that turns wired keyboard into bluetooth keyboard (besides the dongle, you also need a powerbank to power the setup).

@@ -23,7 +23,7 @@ Looking into [the code](https://github.com/vuejs/vue-cli/blob/f0f254e4bc81ed322e
   })
 ```
 
-So the actual problem is webpack build profiling. There are a some tools that can help with it:
+So the actual problem is webpack build profiling. There are some tools that can help with it:
 
 * [progress-plugin](https://webpack.js.org/plugins/progress-plugin/)
 * [profiling-plugin](https://webpack.js.org/plugins/profiling-plugin/)

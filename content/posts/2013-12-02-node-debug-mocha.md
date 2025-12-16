@@ -20,7 +20,7 @@ To debug mocha test with [node inspector](https://github.com/node-inspector/node
 ```
 
 This way there are 5 seconds to start the node inspector and set a breakpoint.
-Mocha should be lauched as this:
+Mocha should be launched as this:
 
 ```bash
     $ mocha -t 10000 --debug

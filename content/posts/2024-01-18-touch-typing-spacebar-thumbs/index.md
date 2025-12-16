@@ -33,7 +33,7 @@ Searching for the information (sources are below), I found the following:
 - Gamers prefer the left spacebar as the right hand is busy with the mouse
 - Some people prefer the left (or right for lefties) hand because it is usually more static, while the other hand often moves to the mouse
 - Some people prefer the right hand as it is dominant
-- Argument for the right shift when using QUERTY: the layout is heavy on the left side and using the right space bar balances it.
+- Argument for the right shift when using QWERTY: the layout is heavy on the left side and using the right space bar balances it.
 
 Ergonomically I think it is important to take health into account: space bar is one of the most popular keys and repeatedly using the same thumb for it may be bad in the long term.
 Alternating thumbs is important in this sense as the heavy load spreads between two fingers (maybe not evenly, but still).
@@ -45,7 +45,7 @@ References:
 - [Keyboarding Techniques.pdf](https://www.usd417.net/pages/uploaded_files/Keyboarding%20Techniques.pdf) - always use right thumb, never both and never alternate (no explanation though).
 - [Should you use both thumbs for the space bar? : r/typing](https://www.reddit.com/r/typing/comments/vzu2l6/should_you_use_both_thumbs_for_the_space_bar/) - it does not matter
   - "[in terms of speed] It's not going to make a difference. it's single finger bigrams and words that the querty layout handles particularly badly. Eg "number"... right index finger, down, up, down for "num". Or "My" if you're a right-Y-striker, etc and so on. So starting to relearn some slow words with alternate fingering will more likely help your speed than alternating thumbs will. :)"
-- [Spacebar, left or right thumb? : r/typing](https://www.reddit.com/r/typing/comments/i8vic9/spacebar_left_or_right_thumb/) - whatever, and QUERTY is heavy on the left hand
+- [Spacebar, left or right thumb? : r/typing](https://www.reddit.com/r/typing/comments/i8vic9/spacebar_left_or_right_thumb/) - whatever, and QWERTY is heavy on the left hand
   - "Something to consider is that QWERTY is weighted to the left hand (~55% left, ~45% right for alphabetic characters)."
 - [Both thumbs for typing? : r/typing](https://www.reddit.com/r/typing/comments/hlig3d/both_thumbs_for_typing/) - using only one thumb may injure it.
   - "I have a similar issue. I have been pressing the spacebar with my right thumb for the last 30+ years and it started to hurt recently."

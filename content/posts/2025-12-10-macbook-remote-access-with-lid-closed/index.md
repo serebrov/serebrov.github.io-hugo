@@ -6,7 +6,7 @@ type: note
 url: "/html/2025-12-10-macbook-keep-on-with-lid-closed-clamshell-mode.html"
 ---
 
-I am testing the [remote desktop to access MacBook](./2025-12-10-macbook-remote-access-from-ipad.html) and it is inconvenient that MacBook needs to stay with the lid open. Othewise, if the lid is closed, the laptop goes to sleep and makes it impossible to connect to it.
+I am testing the [remote desktop to access MacBook](./2025-12-10-macbook-remote-access-from-ipad.html) and it is inconvenient that MacBook needs to stay with the lid open. Otherwise, if the lid is closed, the laptop goes to sleep and makes it impossible to connect to it.
 
 The solution is to have MacBook in a ["clamshell mode"](https://www.google.com/search?q=macbook+clamshell+mode) which is enabled when there is an external display, mouse and the keyboard to the laptop.
 

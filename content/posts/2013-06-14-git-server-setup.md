@@ -28,7 +28,7 @@ Log in as git user and setup authorized ssh keys:
     git@localname$ mkdir .ssh
 ```
 
-For each user who need an access to the server add user's public key into ~/.ssh/authorized_keys
+For each user who needs access to the server add user's public key into ~/.ssh/authorized_keys
 to generate new key-pair for the user use ssh-keygen see [github manual](https://help.github.com/articles/generating-ssh-keys) for details.
 
 ```bash
@@ -53,7 +53,7 @@ Make a dir for repositories and init bare repositories:
     git@localname$ git --bare init
 ```
 
-Sequrity - set git-shell for the git user:
+Security - set git-shell for the git user:
 
 ```bash
     # check where git-shell is
@@ -82,7 +82,7 @@ On the user side - clone the repository or add a remote to existing repository:
 
 For 'server.host.name' there are several options:
 * if the server has a domain name then just use it
-* use sever IP address instead of host name
+* use server IP address instead of host name
 * use any host name you like and add it to local hosts file to map to the IP address
 
 ### Possible problems and solutions
@@ -182,7 +182,7 @@ If you have problems with emails then check the log: /var/log/mail.log and error
 
 ### Setup SMTP for sendmail
 
-If you want to setup SMTP server for you emails do the following:
+If you want to setup SMTP server for your emails do the following:
 
 ```bash
     $ cd /etc/mail
@@ -197,7 +197,7 @@ Enter following line into the client-info file:
     AuthInfo:smtp.server.com "U:mymail@server.com" "I:mymail@server.com" "P:mypassword"
 ```
 
-Here you put you smtp server name (instead of 'smtp.server.com') and your credentials.
+Here you put your smtp server name (instead of 'smtp.server.com') and your credentials.
 'U' is an smtp user (usually your email), 'I' is an account (usually also your email) and 'P' is a password.
 See details for parameters [here](http://www.scalix.com/wiki/index.php?title=Configuring_Sendmail_with_smarthost_Ubuntu_Gutsy).
 

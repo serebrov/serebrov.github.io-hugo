@@ -88,7 +88,7 @@ In this case, try to match at least part of the timestamp.
 
 For example, Apache error log has a timestamp like `Sun May 17 21:59:15.837463 2015`. The problem is that there is a fractional part of the second in the middle, before the year and official python docs doesn't have a placeholder for this case (edit: there is an `%f` for microseconds, but let's pretend we don't know this).
 
-The pattern I used for Apache error log  is `%a %b %d %H:%M:%S` (short weekday, short month name, day, hour:minute:second) and it matches only the start of the timestamp and does not include year. But it works good and I guess that CloudWatch agent takes the current year as default.
+The pattern I used for Apache error log  is `%a %b %d %H:%M:%S` (short weekday, short month name, day, hour:minute:second) and it matches only the start of the timestamp and does not include year. But it works well and I guess that CloudWatch agent takes the current year as default.
 
 Next section in the config file is `Outputs`:
 
@@ -314,7 +314,7 @@ To create a CloudWatch Log configuration for another log file do the following:
 - Copy `cwl-webrequest-metrics.config` and save under new name into the same folder
 - In the `Mappings` section - change the log file path, timestamp format and filter patterns
 - In the `AWSEBAutoScalingGroup` resource - change the config file name: `apache-access.conf` to `my-log-name.conf` and change `[apache-access_log]` section name in the content
-- Search for `webrequest` and replace all occurences with appropriate name, do the case-insensetive search to change webrequest, WebRequest, etc
+- Search for `webrequest` and replace all occurrences with appropriate name, do the case-insensitive search to change webrequest, WebRequest, etc
 - Review filter patterns, metrics and alarms - these will be different for each log file
 
 For example, a config for apache error log can look like this (file `cwl-weberror-metrics.config`):
