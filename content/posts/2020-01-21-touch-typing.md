@@ -58,12 +58,13 @@ A collection of links to touch typing tutors and games.
 *   [Nanotale Typing Chronicles](https://nanotalegame.com/) - one more typing adventure game
 *   The Typing of the Dead (windows game) - [Wikipedia](https://en.wikipedia.org/wiki/The_Typing_of_the_Dead?oldformat=true), [Steam](https://store.steampowered.com/app/246580/The_Typing_of_The_Dead_Overkill/)
 
-##  Desktop Software
+##  Terminal and Desktop Apps
 
 *   [Fonttype](http://frontype.com/about_two.php) (windows) - Look front. Type looking front. Frontype!.
     *   Onscreen keyboard to learn typing (instead of tutors). Interesting idea, I didn't try this myself
 *   [GNU Typist](http://www.gnu.org/software/gtypist/) (cross-platform) - typing tutor
 *   [mltype](https://github.com/jankrepl/mltype) - command-line typing practice for programmers
+*   [gittype](https://github.com/unhappychoice/gittype) - a CLI code-typing game that turns your source code into typing challenges 
 
 ## Keyboard Memo
 
