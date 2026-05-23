@@ -103,7 +103,7 @@ Updated the following refs with --update-refs:
 Now we can push changes to the remote repository like this:
 
 ```
-git push --force-with-lease B A # we can list all updated branches here
+git push --force-with-lease origin B A # we can list all updated branches here
 ```
 
 ## Method 2: Rebase branches one-by-one
